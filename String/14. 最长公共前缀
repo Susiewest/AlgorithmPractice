@@ -1,0 +1,21 @@
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        #zip函数 把多个list对应位置的元素打包成元组：[fff][lll][ooi]
+        #groups=zip(strs)
+        #列表、元组前面加星号作用是将列表解开成两个独立的参数，传入函数，字典前面加两个星号，是将字典解开成独立的元素作为形参。
+        groups=zip(*strs)
+        count=''
+        #for i in range(len(groups)):
+        for i in groups:
+            if len(set(i))==1:
+                #count+=str(set(i)) 输出"{'f'}{'l'}" 而预期是‘fl’
+                count+=i[0]
+            else:
+                return count
+        return count
+     
+''' 执行结果：通过
+执行用时：
+52 ms, 在所有 Python3 提交中击败了20.47%的用户
+内存消耗：
+13.6 MB, 在所有 Python3 提交中击败了6.15%的用户'''
