@@ -18,3 +18,4 @@
 
 [27. 移除元素](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/27.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0)
 
+[28. 实现strStr()](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/28.%20%E5%AE%9E%E7%8E%B0strStr())
