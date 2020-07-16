@@ -1,0 +1,16 @@
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        if len(needle)==0:
+            return 0
+        for i in range(len(haystack)):
+            if haystack[i]==needle[0]:
+                if haystack[i:i+len(needle)]==needle:
+                    return i
+        return -1
+       
+ '''执行结果：
+通过
+执行用时：
+64 ms, 在所有 Python3 提交中击败了11.97%的用户
+内存消耗：
+13.8 MB, 在所有 Python3 提交中击败了6.67%的用户'''
