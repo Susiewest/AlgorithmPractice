@@ -43,3 +43,44 @@ class Solution:
         return -1
 
 #超时了。。
+
+
+#不超时的改法
+
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        if len(needle) == 0:
+            return 0
+
+        def deviation(s):
+            dev = {}
+            dev['others'] = len(s) + 1
+            for i in range(len(s) - 1, -1, -1):  # 想要匹配的字符串从后往前
+                if s[i] not in dev.keys():  # 如果已存在 如that的第一个t（却是第二个检验dev的）就不会更新value
+                    dev[s[i]] = len(s) - i  # 下标差+1
+            return dev
+            # dev['others']=len(s)+1  #如果下一个字符（第五个字符）不在that里 就直接跳到第六个字符
+
+        de = deviation(needle)
+
+        index = 0
+
+        while(index+len(needle)-1<len(haystack)):
+            if haystack[index:index + len(needle)] == needle:
+                return index
+            #原本把这个判断写在下面两个if里 可能判断次数重复导致超时了
+            #所以能开头一个判断return的 先return了
+            if index+len(needle)>=len(haystack):
+                return -1
+            if haystack[index + len(needle)] in de.keys():
+                index += de[haystack[index + len(needle)]]
+            elif haystack[index + len(needle)] not in de.keys():
+                index += de['others']
+        return -1
+
+'''执行结果：
+通过
+执行用时：
+40 ms, 在所有 Python3 提交中击败了79.72%的用户
+内存消耗：
+13.8 MB, 在所有 Python3 提交中击败了6.67%的用户'''
