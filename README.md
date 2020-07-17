@@ -19,3 +19,6 @@
 [27. 移除元素](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/27.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0)
 
 [28. 实现strStr()](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/28.%20%E5%AE%9E%E7%8E%B0strStr())
+
+[38. 外观数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97)
+
