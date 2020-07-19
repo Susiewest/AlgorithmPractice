@@ -10,6 +10,7 @@ class Solution:
                 return len(last)
         return len(last)
 
+
 '''执行结果：
 通过
 执行用时：
