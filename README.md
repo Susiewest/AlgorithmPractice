@@ -32,3 +32,4 @@
 
 [67. 二进制求和](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/67.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C)
 
+[69. x的平方根](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/69.%20x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9)
