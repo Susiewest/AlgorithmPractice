@@ -35,3 +35,5 @@
 [69. x的平方根](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/69.%20x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9)
 
 [70. 爬楼梯](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/70.%20%E7%88%AC%E6%A5%BC%E6%A2%AF)
+
+[83. Remove Duplicates from Sorted List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/83.%20Remove%20Duplicates%20from%20Sorted%20List)
