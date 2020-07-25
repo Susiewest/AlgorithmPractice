@@ -37,3 +37,5 @@
 [70. 爬楼梯](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/70.%20%E7%88%AC%E6%A5%BC%E6%A2%AF)
 
 [83. Remove Duplicates from Sorted List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/83.%20Remove%20Duplicates%20from%20Sorted%20List)
+
+[88. Merge Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/88.%20Merge%20Sorter%20Array)
