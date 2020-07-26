@@ -39,3 +39,5 @@
 [83. Remove Duplicates from Sorted List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/83.%20Remove%20Duplicates%20from%20Sorted%20List)
 
 [88. Merge Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/88.%20Merge%20Sorter%20Array)
+
+[100. Same Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/100.%20Same%20Tree)
