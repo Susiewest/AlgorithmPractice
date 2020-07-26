@@ -1,0 +1,25 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def isSymmetric(self, root: TreeNode) -> bool:
+        if root==None:
+            return True
+        def isSym(subroot1,subroot2):
+            if subroot1==None and subroot2==None:
+                return True
+            if subroot1==None or subroot2==None:
+                return False
+            if subroot1.val==subroot2.val:
+                #return self.isSym(subroot1.left,subroot2.right) and self.isSym(subroot1.right,subroot2.left) 
+                return isSym(subroot1.left,subroot2.right) and isSym(subroot1.right,subroot2.left) 
+
+        return isSym(root.left,root.right)
+
+  
+  
+  '''Runtime: 40 ms, faster than 43.20% of Python3 online submissions for Symmetric Tree.
+Memory Usage: 13.9 MB, less than 72.36% of Python3 online submissions for Symmetric Tree.'''
