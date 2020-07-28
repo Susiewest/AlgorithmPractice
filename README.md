@@ -43,3 +43,5 @@
 [100. Same Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/100.%20Same%20Tree)
 
 [101. Symmetric Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/101.%20Symmetric%20Tree)
+
+[104. Maximum Depth of Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree)
