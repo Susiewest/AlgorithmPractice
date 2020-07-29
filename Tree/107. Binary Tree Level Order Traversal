@@ -6,6 +6,10 @@
 #         self.right = right
 #一个队列实现结点的层次遍历 一个列表存队列里pop出来的结点的val 列表只保留当前层的val 统一append到最终结果列表traversal里 然后清空
 #感觉存一个字典 层数：结点值集合 也可以
+#看到别人的解法也是建立了三个空间 区别是让队列保存字典 层数：结点 设置一个current_layer记录层数 这样每次current_layer如果都在queue[0]就说明这层还没结束 
+#但我的方法是 每次处理当前层结点前 队列中只有当前层的结点 这时计算队列长度来限制处理次数 结束次数再把这一行都append到最终结果里 
+#关键在于如何确保lists中的list里是一整行的结点 不多也不少的加入最终output
+
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         traversal=[]
