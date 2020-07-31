@@ -1,0 +1,25 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isBalanced(self, root: TreeNode) -> bool:
+        if root==None:
+            return True
+        return abs(self.depth(root.left)-self.depth(root.right))<=1 and self.isBalanced(root.left) and self.isBalanced(root.right)
+    #def里面套def 内部的def就不用self 递归也不用self. 
+    #这种并列def都要各自self
+    def depth(self,root):
+        if root==None: return 0
+        else: return max(self.depth(root.left),self.depth(root.right))+1
+       
+       
+'''执行结果：
+通过
+执行用时：
+88 ms, 在所有 Python3 提交中击败了16.75%的用户
+内存消耗：
+17.6 MB, 在所有 Python3 提交中击败了48.45%的用户'''
