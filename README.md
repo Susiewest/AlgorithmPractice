@@ -53,3 +53,5 @@
 [110. Balanced Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/110.%20Balanced%20Binary%20Tree)
 
 [111. Minimum Depth of Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/111.%20Minimum%20Depth%20of%20Binary%20Tree)
+
+[112. Path Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/112.%20Path%20Sum)
