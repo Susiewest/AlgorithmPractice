@@ -1,3 +1,5 @@
+#看解题区才知道原来我写的这就算是动态规划了。。
+
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         pascal=[]
