@@ -59,3 +59,7 @@
 [118. Pascal's Triangle](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/118.%20Pascal's%20Triangle)
 
 [119. Pascal's Triangle II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/119.%20Pascal's%20Triangle%20II)
+
+[121. Best Time to Buy and Sell Stock](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
+
+
