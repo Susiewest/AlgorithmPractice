@@ -67,3 +67,7 @@
 [125. Valid Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/125.%20Valid%20Palindrome)
 
 [136. Single Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/136.%20Single%20Number)
+
+[141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList)
+
+
