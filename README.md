@@ -70,4 +70,4 @@
 
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList)
 
-
+[155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack)
