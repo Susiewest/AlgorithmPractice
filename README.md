@@ -71,3 +71,5 @@
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList)
 
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack)
+
+[160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists)
