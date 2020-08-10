@@ -1,0 +1,43 @@
+#哎写的方法好笨啊 先遍历两个链表获得长度差 再让长的先走长度差个再长短一起走 直到指的节点一致
+#看题解有个很浪漫同时也很牛批的写法 走过对方走过的路 总有一天会相遇 
+#两个指针同时遍历 一个走到头了就换到另一链表的头部继续走 走完Y的三个枝桠的长度 就会相遇 有空了闭卷默写下
+#下面是本人的笨蛋做法 哼
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        if headA==None or headB==None:
+            return None
+        def getLength(node):
+            length=1
+            while(node.next):
+                length+=1
+                node=node.next
+            return length
+        length_a=getLength(headA)
+        length_b=getLength(headB)
+        dis=abs(length_a-length_b)
+        if length_a>length_b:
+            for i in range(dis):
+                headA=headA.next
+        else:
+            for i in range(dis):
+                headB=headB.next
+        while(headA!=headB):
+            headA=headA.next
+            headB=headB.next
+        return headA
+
+
+
+'''执行结果：
+通过
+执行用时：
+192 ms, 在所有 Python3 提交中击败了53.61%的用户
+内存消耗：
+29.1 MB, 在所有 Python3 提交中击败了29.33%的用户'''
