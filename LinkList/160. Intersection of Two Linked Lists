@@ -41,3 +41,45 @@ class Solution:
 192 ms, 在所有 Python3 提交中击败了53.61%的用户
 内存消耗：
 29.1 MB, 在所有 Python3 提交中击败了29.33%的用户'''
+
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        if headA==None or headB==None:
+            return None
+        Bearbear=headA
+        Zhizhi=headB
+        while(Bearbear!=Zhizhi):
+            if Bearbear!=None:
+                Bearbear=Bearbear.next
+            else:
+                Bearbear=headB
+            if Zhizhi!=None:
+                Zhizhi=Zhizhi.next
+            else:
+                Zhizhi=headA
+        return Bearbear
+        #一开始写的 没有交点的情况下死循环了 是这么写的 
+        #bearbear=bearbear.next zhizhi=zhizhi.next
+        #if bearbear=none bearbear=headb
+        #if zhizhi=none bearbear=heada
+        #这样写就把两个同时为none（也就是走过了对方的路依然没有相遇）的情况直接当场解决了 
+        #不会留到while判断的时候知道它走完了 直接开始再不断的走
+        #现在的写法 不相交时 走完对方的路会同时为空 可以结束循环
+        #总结：要判断当前点是不是空 不是就取下一个（如果大家下一个都是空 while就结束了）
+        #而不是判断下一个点为不为空 为空立刻回开头这样不对
+        #做人要有空窗期 不要无缝衔接 有空窗期才能好好反思是不是没有缘分（我在说什么
+
+
+'''执行用时：
+184 ms
+, 在所有 Python3 提交中击败了76.97%的用户
+内存消耗：
+29 MB, 在所有 Python3 提交中击败了52.29%的用户'''
