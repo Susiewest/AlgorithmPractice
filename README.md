@@ -73,3 +73,5 @@
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack)
 
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists)
+
+[167. Two Sum II - Input array is sorted](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted)
