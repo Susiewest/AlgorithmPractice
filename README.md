@@ -2,9 +2,9 @@
 
 [1. 两数之和](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)
 
-[7. 整数反转](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/7.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC)
+[7. 整数反转](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/7.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC.py)
 
-[9. 回文数](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/9.%20%E5%9B%9E%E6%96%87%E6%95%B0)
+[9. 回文数](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/9.%20%E5%9B%9E%E6%96%87%E6%95%B0.py)
 
 [13. 罗马数字转整数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/13.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0)
 
@@ -75,3 +75,5 @@
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists)
 
 [167. Two Sum II - Input array is sorted](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted)
+
+[168. Excel Sheet Column Title](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/168.%20Excel%20Sheet%20Column%20Title.py)
