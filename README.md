@@ -79,3 +79,5 @@
 [168. Excel Sheet Column Title](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/168.%20Excel%20Sheet%20Column%20Title.py.py)
 
 [169. Majority Element](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/169.%20Majority%20Element.py)
+
+[171. Excel Sheet Column Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/171.%20Excel%20Sheet%20Column%20Number.py)
