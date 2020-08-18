@@ -5,7 +5,7 @@ class Solution:
         if max(nums)<0:
             return max(nums)
         current_sum=0
-        #记录下scan到当前位置可能拥有的最大sum
+        #记录下scan到当前位置可能拥有的最大sum ❌这么说不对 应该说记录sum到当前位置可能对后面产生的贡献 sum为正就有贡献 为负就置0从头开始加
         nums_sum=[]
         for i in range(len(nums)):
             #一开始这里写的>0才累积 觉得=0 可以不算 从后面重新开始 但是对nums=[0]的情况 最后的nums_sum为空会调用max失败
