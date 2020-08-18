@@ -84,4 +84,6 @@
 
 [172. Factorial Trailing Zeroes](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/172.%20Factorial%20Trailing%20Zeroes)
 
+[189. Rotate Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/189.%20Rotate%20Array)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome)
