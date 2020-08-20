@@ -86,4 +86,8 @@
 
 [189. Rotate Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/189.%20Rotate%20Array)
 
+[190. Reverse Bits](https://github.com/Susiewest/AlgorithmPractice/tree/master/Bit%20Manipulation)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome)
+
+
