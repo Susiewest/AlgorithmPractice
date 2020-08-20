@@ -66,7 +66,7 @@
 
 [125. Valid Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/125.%20Valid%20Palindrome.py)
 
-[136. Single Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/136.%20Single%20Number.py)
+[136. Single Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit Manipulation/136.%20Single%20Number.py)
 
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList.py)
 
@@ -82,12 +82,12 @@
 
 [171. Excel Sheet Column Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/171.%20Excel%20Sheet%20Column%20Number.py)
 
-[172. Factorial Trailing Zeroes](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/172.%20Factorial%20Trailing%20Zeroes)
+[172. Factorial Trailing Zeroes](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/172.%20Factorial%20Trailing%20Zeroes.py)
 
-[189. Rotate Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/189.%20Rotate%20Array)
+[189. Rotate Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/189.%20Rotate%20Array.py)
 
-[190. Reverse Bits](https://github.com/Susiewest/AlgorithmPractice/tree/master/Bit%20Manipulation)
+[190. Reverse Bits](https://github.com/Susiewest/AlgorithmPractice/tree/master/Bit%20Manipulation.py)
 
-[409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome)
+[409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
