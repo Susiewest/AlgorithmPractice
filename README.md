@@ -66,7 +66,7 @@
 
 [125. Valid Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/125.%20Valid%20Palindrome.py)
 
-[136. Single Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit Manipulation/136.%20Single%20Number.py)
+[136. Single Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/136.%20Single%20Number.py)
 
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList.py)
 
