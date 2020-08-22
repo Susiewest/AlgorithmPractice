@@ -88,6 +88,8 @@
 
 [190. Reverse Bits](https://github.com/Susiewest/AlgorithmPractice/tree/master/Bit%20Manipulation.py)
 
+[191. Number of 1 Bits](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/191.%20Number%20of%201%20Bits.py)
+
 [200. Number of Islands](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/200.%20Number%20of%20Islands.py)
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
