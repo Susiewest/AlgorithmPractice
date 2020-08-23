@@ -90,6 +90,8 @@
 
 [191. Number of 1 Bits](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/191.%20Number%20of%201%20Bits.py)
 
+[198. House Robber](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/198.%20House%20Robber.py)
+
 [200. Number of Islands](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/200.%20Number%20of%20Islands.py)
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
