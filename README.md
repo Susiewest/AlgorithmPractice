@@ -94,6 +94,8 @@
 
 [200. Number of Islands](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/200.%20Number%20of%20Islands.py)
 
+[202. Happy Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/202.%20Happy%20Number.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
