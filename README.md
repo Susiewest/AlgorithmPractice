@@ -98,6 +98,8 @@
 
 [203. Remove Linked List Elements](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/203.%20Remove%20Linked%20List%20Elements.py)
 
+[204. Count Primes](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/204.%20Count%20Primes.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
