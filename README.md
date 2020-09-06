@@ -100,6 +100,8 @@
 
 [204. Count Primes](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/204.%20Count%20Primes.py)
 
+[205. Isomorphic Strings](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/205.%20Isomorphic%20Strings.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
