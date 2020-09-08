@@ -104,6 +104,8 @@
 
 [206. Reverse Linked List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/206.%20Reverse%20Linked%20List.py)
 
+[217. Contains Duplicate](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/217.%20Contains%20Duplicate.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
