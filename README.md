@@ -106,6 +106,8 @@
 
 [217. Contains Duplicate](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/217.%20Contains%20Duplicate.py)
 
+[219. Contains Duplicate II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/219.%20Contains%20Duplicate%20II.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
