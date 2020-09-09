@@ -17,3 +17,19 @@ class Solution:
                 if temp_counter[nums[j]] > 1:
                     result = True
         return result
+
+    
+#之前是滑动窗口 每k个数字生成一个counter 超时了
+#现在是从头到尾走一遍即可 遇到已存在于字典的数字就判断下标距离
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        counter={}
+        for i in range(len(nums)):
+            if nums[i] in counter.keys() and counter[nums[i]]>=i-k:
+                return True
+            counter[nums[i]]=i
+        return False
+'''执行用时：
+44 ms, 在所有 Python3 提交中击败了89.26%的用户
+内存消耗：
+21.3 MB, 在所有 Python3 提交中击败了54.35%的用户'''
