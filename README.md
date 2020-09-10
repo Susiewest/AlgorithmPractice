@@ -108,6 +108,8 @@
 
 [219. Contains Duplicate II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/219.%20Contains%20Duplicate%20II.py)
 
+[225. Implement Stack using Queues](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/225.%20Implement%20Stack%20using%20Queues.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
