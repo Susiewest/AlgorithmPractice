@@ -110,6 +110,8 @@
 
 [225. Implement Stack using Queues](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/225.%20Implement%20Stack%20using%20Queues.py)
 
+[226. Invert Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/226.%20Invert%20Binary%20Tree.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
