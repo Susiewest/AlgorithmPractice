@@ -1,3 +1,4 @@
+#power of two原来是二次幂的意思 呆滞。。。
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if n==0:
