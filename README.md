@@ -112,6 +112,8 @@
 
 [226. Invert Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/226.%20Invert%20Binary%20Tree.py)
 
+[231. Power of Two](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/231.%20Power%20of%20Two.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
