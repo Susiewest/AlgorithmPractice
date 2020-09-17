@@ -122,6 +122,8 @@
 
 [237. Delete Node in a Linked List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/237.%20Delete%20Node%20in%20a%20Linked%20List.py)
 
+[242. Valid Anagram](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/242.%20Valid%20Anagram.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
