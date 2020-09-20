@@ -39,3 +39,30 @@ class Solution:
 140 ms, 在所有 Python3 提交中击败了21.16%的用户
 内存消耗：
 17.8 MB, 在所有 Python3 提交中击败了5.11%的用户'''
+
+
+#从这个方法里学到了 1. 滑动窗口思想 不一定要用一个list保存所有的 每次可以只保留maxlen的 节省了空间复杂度
+#2. 最长xxx/子串 就可以用滑动窗口
+#3. 不重复 涉及出现次数，需要用hash
+#4. 可以理解为双指针做法 需要一个左指针 和一个记录左指针每次应该挪到的下一位
+#5. 记得有个题也是比较了下标位置 回头找一下 ✨
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        subscript={} #保存如果当前字符重复的话 已有字符串里当前字符最后一次出现的位置
+        maxlen=0
+        k=0   #记录每次找字符串起始的位置 最开始是0 表示最左端
+        for index, character in enumerate(s):
+            #！！！！！一开始写的>k 结果不对 debug发现 会忽略掉字母就在起始位置k 下一次要在k+1开始的情况
+            if character in subscript.keys() and subscript[character]>=k:
+                #上次出现的下标大于当前长度的起始下标
+                #起始位置变 最终出现的位置变
+                k=subscript[character]+1
+                subscript[character]=index
+            else:
+                subscript[character]=index
+                maxlen=max(maxlen,index-k+1)
+        return maxlen
+
+
+
+
