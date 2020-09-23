@@ -44,6 +44,7 @@ class Solution:
 21.8 MB, 在所有 Python3 提交中击败了6.48%的用户'''
 
 
+#中心扩散法 定义的函数既能解决偶数个 也能解决奇数
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         start, end = 0, 0
