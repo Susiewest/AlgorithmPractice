@@ -42,3 +42,31 @@ class Solution:
 4288 ms, 在所有 Python3 提交中击败了47.64%的用户
 内存消耗：
 21.8 MB, 在所有 Python3 提交中击败了6.48%的用户'''
+
+
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        start, end = 0, 0
+        for i in range(len(s)-1):
+            left1, right1=self.expand(s,i,i)
+            left2, right2=self.expand(s,i,i+1)
+            if right1-left1>end-start:
+                start=left1
+                end=right1
+            if right2-left2>end-start:
+            #elif right2-left2>end-start: 不是非你即我的关系 是都要比的关系
+                start=left2
+                end=right2
+        return s[start:end+1]
+
+        
+    def expand(self, s, left, right):
+        while left>=0 and right<len(s) and s[left]==s[right]:
+            left=left-1
+            right=right+1
+        return left+1, right-1
+   
+'''执行用时：
+1024 ms, 在所有 Python3 提交中击败了81.23%的用户
+内存消耗：
+13.3 MB, 在所有 Python3 提交中击败了85.86%的用户'''
