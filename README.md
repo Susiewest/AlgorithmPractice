@@ -8,6 +8,8 @@
 
 [5. Longest Palindromic Substring](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/5.%20Longest%20Palindromic%20Substring.py)
 
+[6. ZigZag Conversion](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/6.%20ZigZag%20Conversion.py)
+
 [7. Reverse Integer](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/7.%20Reverse%20Integer.py)
 
 [9. Palindrome Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/9.%20%E5%9B%9E%E6%96%87%E6%95%B0.py)
