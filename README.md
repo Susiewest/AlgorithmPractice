@@ -1,6 +1,6 @@
 # AlgorithmPractice
 
-[1. Two Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.cpp)
+[1. Two Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
 [2. Add Two Numbers](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/2.%20Add%20Two%20Numbers.py)
 
