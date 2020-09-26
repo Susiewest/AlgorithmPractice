@@ -12,6 +12,8 @@
 
 [7. Reverse Integer](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/7.%20Reverse%20Integer.py)
 
+[8. String to Integer (atoi)](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/8.%20String%20to%20Integer%20(atoi).py)
+
 [9. Palindrome Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/9.%20%E5%9B%9E%E6%96%87%E6%95%B0.py)
 
 [13. Roman to Integer](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/13.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0.py)
