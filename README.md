@@ -34,6 +34,8 @@
 
 [18. 4Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/18.%204Sum.py) 感觉我的双指针写法不够优美 还需要再研究
 
+[](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.py)第一次中等题不看答案还能达到这么高的击败率！！！好开心呀 2020/10/03
+
 [20. Valid Parentheses](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/20.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.py)
 
 [21. Merge Two Sorted Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/21.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.py)
