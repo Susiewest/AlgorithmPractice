@@ -42,6 +42,8 @@
 
 [22. Generate Parentheses](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/22.%20Generate%20Parentheses.py)
 
+[24. Swap Nodes in Pairs](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/24.%20Swap%20Nodes%20in%20Pairs.py)
+
 [26. Remove Duplicates from Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/26.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.py)
 
 [27. Remove Element](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/27.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.py)
