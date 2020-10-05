@@ -65,3 +65,8 @@ class Solution:
         first.next=self.swapPairs(second.next)
         second.next=first
         return second
+
+'''执行用时：
+52 ms, 在所有 Python3 提交中击败了10.29%的用户
+内存消耗：
+13.2 MB, 在所有 Python3 提交中击败了90.41%的用户'''
