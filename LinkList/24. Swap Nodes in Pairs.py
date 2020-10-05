@@ -25,7 +25,7 @@ class Solution:
             first, second=pre.next, pre.next.next
         return dummy.next
 
-
+#正确的迭代方法
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -50,3 +50,18 @@ class Solution:
 
 ‘’’执行用时：44 ms, 在所有 Python3 提交中击败了50.94%的用户
 内存消耗：13.5 MB, 在所有 Python3 提交中击败了9.19%的用户‘’’
+
+#递归方法
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        if head==None or head.next==None:
+            return head
+        first, second=head, head.next
+        first.next=self.swapPairs(second.next)
+        second.next=first
+        return second
