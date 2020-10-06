@@ -50,6 +50,8 @@
 
 [28. Implement strStr()](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/28.%20Implement%20strStr().py)
 
+[29. Divide Two Integers](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/29.%20Divide%20Two%20Integers.py)
+
 [35. Search Insert Position](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/35.%20Search%20Insert%20Position.py)
 
 [38. 外观数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97.py)
