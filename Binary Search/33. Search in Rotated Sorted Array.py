@@ -1,3 +1,9 @@
+#一个大总结！为了避免死循环，把区间分成两个部分的时候，二分最后一次的中间数划分很重要。
+#如果选定左端和mid比 此时mid取右中位数写起来比较方便 选定右端和mid比 此时mid取左中位数比较方便！
+#当然也可以写左端和mid左中位数 右端和右中位数 我的方法1是右端和左中位数 方法2是右端和右中位数
+#https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/er-fen-fa-python-dai-ma-java-dai-ma-by-liweiwei141/
+#链接的评论区有四种写法的合集 可以看看
+#当处理完简单的部分（有序的一部分）后，剩余的复杂的部分可能迎刃而解。本问题，只需要将眼光聚焦于有序的部分，就会简单很多。
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left, right=0, len(nums)-1
@@ -32,7 +38,7 @@ class Solution:
         left, right=0, len(nums)-1
         while(left<=right):
             #这个版本保留了原本的取mid写法
-            #在39行进行了改动 原本是if mid<right改成了mid<=right 之前的写法取中间两个数中右边的数 如果右边的数就是最右端的数 会跳到else执行 判定为mid和左半边有序
+            #在45行进行了改动 原本是if mid<right改成了mid<=right 之前的写法取中间两个数中右边的数 如果右边的数就是最右端的数 会跳到else执行 判定为mid和左半边有序
             mid=left+(right-left+1)//2
             if nums[mid]==target:
                 return mid
