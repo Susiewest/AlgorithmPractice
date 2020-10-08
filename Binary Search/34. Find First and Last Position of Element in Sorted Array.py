@@ -1,4 +1,5 @@
 #缺点：二分找到mid后 又线性查找的起点和终点 有待改进
+#https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/da-jia-bu-yao-kan-labuladong-de-jie-fa-fei-chang-2/
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         left, right=0, len(nums)-1
