@@ -14,7 +14,7 @@
 
 [8. String to Integer (atoi)](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/8.%20String%20to%20Integer%20(atoi).py)
 
-[9. Palindrome Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/9.%20%E5%9B%9E%E6%96%87%E6%95%B0.py)
+[9. Palindrome Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/9.%20Palindrome%20Number.py)
 
 [11. Container With Most Water](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/11.%20Container%20With%20Most%20Water.py) 好妙的双指针
 
