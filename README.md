@@ -22,7 +22,7 @@
 
 [13. Roman to Integer](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/13.%20Roman%20to%20Integer.py)
 
-[14. Longest Common Prefix](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/14.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.py)
+[14. Longest Common Prefix](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/14.%20Longest%20Common%20Prefix.py)
 
 [15. 3Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/15.%203Sum.py)
 
