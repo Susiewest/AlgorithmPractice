@@ -58,6 +58,8 @@
 
 [35. Search Insert Position](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/35.%20Search%20Insert%20Position.py)
 
+[36. Valid Sudoku](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/36.%20Valid%20Sudoku.py)
+
 [38. 外观数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97.py)
 
 [53. 最大子序和](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/53.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
