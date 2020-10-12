@@ -62,6 +62,8 @@
 
 [38. 外观数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97.py)
 
+[39. Combination Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/39.%20Combination%20Sum.py)有点回溯的东西在里面
+
 [53. 最大子序和](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/53.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
 
 [58. 最后一个单词的长度](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/58.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6.py)
