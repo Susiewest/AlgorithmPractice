@@ -1,3 +1,4 @@
+#https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         result=[]
@@ -5,6 +6,11 @@ class Solution:
         used=[False]*len(nums)
         def dfs(path,depth):
             if depth==len(nums):
+                #这里很重要 一开始append（path） result是[[],[],[],[]]这样的
+                #因为path是传址，对象类型变量在传参的过程中，复制的是变量的地址。这些地址被添加到 result 变量，但实际上指向的是同一块内存地址
+                #因此最后path回到根节点为[]，所有指向这个地址的都会变成空
+                #res.append(path) 把 path 的地址复制到 res 中；
+                #res.append(path[:]) 把 path 复制了一份，把新复制的列表的地址复制到 res 中。
                 result.append(path[:])
                 return
             for i in range(len(nums)):
