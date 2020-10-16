@@ -10,3 +10,8 @@ class Solution:
                 return y*y*x
         return double(x,n) if n>0 else double(1/x,-n)
                 
+        
+'''执行用时：
+44 ms, 在所有 Python3 提交中击败了50.75%的用户
+内存消耗：
+13.4 MB, 在所有 Python3 提交中击败了38.89%的用户'''
