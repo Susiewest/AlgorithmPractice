@@ -60,7 +60,7 @@
 
 [36. Valid Sudoku](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/36.%20Valid%20Sudoku.py)
 
-[38. 外观数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20Count%20and%20Say.py)
+[38. Count and Say](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20Count%20and%20Say.py)
 
 [39. Combination Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/39.%20Combination%20Sum.py)有点回溯的东西在里面
 
