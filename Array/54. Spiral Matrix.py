@@ -1,3 +1,5 @@
+#https://leetcode-cn.com/problems/spiral-matrix/solution/28ms-wo-bu-xin-you-ren-xie-de-bi-wo-xie-de-you-ya-/
+#这个链接的写法很妙 没抄 下次重温可以默写一下
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if len(matrix)==0 or len(matrix[0])==0: return []
