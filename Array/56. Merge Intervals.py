@@ -1,3 +1,5 @@
+#怎么说呢 我感觉大部分看起来没有思路的题 其实需要分解成一小步去考虑
+#比如这个题 只需要每次考虑更新最后一个元素与否 但是一开始没想到 还想怎么跨元素维护 还是缺乏这种思维
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if len(intervals)==0:
