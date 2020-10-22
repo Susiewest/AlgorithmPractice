@@ -82,6 +82,8 @@
 
 [58. 最后一个单词的长度](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/58.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6.py)
 
+[62. Unique Paths](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/62.%20Unique%20Paths.py)
+
 [66. 加一](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/66.%20%E5%8A%A0%E4%B8%80.py)
 
 [67. 二进制求和](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/67.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C.py)
