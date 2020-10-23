@@ -94,6 +94,8 @@
 
 [73. Set Matrix Zeroes](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/73.%20Set%20Matrix%20Zeroes.py)
 
+[75. Sort Colors](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/75.%20Sort%20Colors.py)在王道见过类似题！一下子就想起来啦 没有困难的工作！只有见题不够多的狗勾！
+
 [83. Remove Duplicates from Sorted List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)
 
 [88. Merge Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/88.%20Merge%20Sorter%20Array.py)
