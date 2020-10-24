@@ -52,3 +52,8 @@ class Solution:
                 if board[i][j]==word[0] and dfs(board,word,i,j,1):
                         result=True
         return result
+    
+'''执行用时：
+116 ms, 在所有 Python3 提交中击败了97.09%的用户
+内存消耗：
+15.1 MB, 在所有 Python3 提交中击败了8.78%的用户'''
