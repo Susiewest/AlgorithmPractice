@@ -57,3 +57,65 @@ class Solution:
 116 ms, 在所有 Python3 提交中击败了97.09%的用户
 内存消耗：
 15.1 MB, 在所有 Python3 提交中击败了8.78%的用户'''
+
+#看了答案默写都能出错 偶服辣
+#dfs内：终止条件-当前状态改变-判断新位置是否越界-调用递归-递归结束后状态恢复方便后续遍历
+#易错点：
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        directions=[(0,1),(0,-1),(1,0),(-1,0)]
+        def dfs(board,word,row,col,start_x,start_y,visited,pos): #pos记录现在要满足word的第几个字母
+            if pos==len(word): #出错位置2
+                return True
+            if board[start_x][start_y]==word[pos]:
+                visited[start_x][start_y]=True
+                for direction in directions:
+                    new_x=start_x+direction[0]
+                    new_y=start_y+direction[1]
+                    if 0<=new_x<row and 0<=new_y<col and not visited[new_x][new_y]:
+                        dfs(board,word,row,col,new_x,new_y,visited,pos+1) #出错位置1
+                visited[start_x][start_y]=False
+            return False
+        result=False
+        row=len(board)
+        col=len(board[0])
+        visited=[[False]*col for _ in range(row)]
+        for i in range(row):
+            for j in range(col):
+                if dfs(board,word,row,col,i,j,visited,0):
+                        result=True
+        return result
+
+#dfs内：终止条件-当前状态改变-判断新位置是否越界-调用递归-递归结束后状态恢复方便后续遍历
+#易错点：1. 只要有一个是true就true 这个思想的表达方式
+#2. 终止条件 一开始写的是处理到word后一个空字符（？）时结束 return true 
+#这样会对测试用例[[a]]报错，因为newx，newy会越界，根本不会执行下一层循环再满足if pos==len：return true
+#所以在处理最后一个字符的时候就要终止了
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        directions=[(0,1),(0,-1),(1,0),(-1,0)]
+        def dfs(board,word,row,col,start_x,start_y,visited,pos): #pos记录现在要满足word的第几个字母
+            if pos==len(word)-1:
+                return board[start_x][start_y]==word[pos]
+            if board[start_x][start_y]==word[pos]:
+                visited[start_x][start_y]=True
+                for direction in directions:
+                    new_x=start_x+direction[0]
+                    new_y=start_y+direction[1]
+                    if 0<=new_x<row and 0<=new_y<col and not visited[new_x][new_y] and dfs(board,word,row,col,new_x,new_y,visited,pos+1):
+                        return True
+                visited[start_x][start_y]=False
+            return False
+        result=False
+        row=len(board)
+        col=len(board[0])
+        visited=[[False]*col for _ in range(row)]
+        for i in range(row):
+            for j in range(col):
+                if dfs(board,word,row,col,i,j,visited,0):
+                        result=True
+        return result
+'''执行用时：
+188 ms, 在所有 Python3 提交中击败了92.09%的用户
+内存消耗：
+14.7 MB, 在所有 Python3 提交中击败了25.03%的用户'''
