@@ -60,7 +60,7 @@ class Solution:
 
 #看了答案默写都能出错 偶服辣
 #dfs内：终止条件-当前状态改变-判断新位置是否越界-调用递归-递归结束后状态恢复方便后续遍历
-#易错点：
+#这版本错的
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         directions=[(0,1),(0,-1),(1,0),(-1,0)]
