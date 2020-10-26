@@ -104,6 +104,8 @@
 
 [88. Merge Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/88.%20Merge%20Sorter%20Array.py)
 
+[91. Decode Ways](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/91.%20Decode%20Ways.py)
+
 [94. Binary Tree Inorder Traversal](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/94.%20Binary%20Tree%20Inorder%20Traversal.py)
 
 [98. Validate Binary Search Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/98.%20Validate%20Binary%20Search%20Tree.py)
