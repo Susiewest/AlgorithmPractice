@@ -98,9 +98,15 @@
 
 [78. Subsets](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/78.%20Subsets.py)第一次自己独立写出回溯！而且发现了一个很容易犯错的bug出现地！加油铁废物！2020/10/24
 
+[79. Word Search](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/79.%20Word%20Search.py)1. 和200不同，200需要记录状态（题目已给出状态数组），但不需恢复原状态，也不需要return t/f，只需统计连成片的区域个数 2. 79只要有一个对的就全对，98题只要有一个错的就全错，可以对比学习
+
 [83. Remove Duplicates from Sorted List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)
 
 [88. Merge Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/88.%20Merge%20Sorter%20Array.py)
+
+[94. Binary Tree Inorder Traversal](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/94.%20Binary%20Tree%20Inorder%20Traversal.py)
+
+[98. Validate Binary Search Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/98.%20Validate%20Binary%20Search%20Tree.py)
 
 [100. Same Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/100.%20Same%20Tree.py)
 
