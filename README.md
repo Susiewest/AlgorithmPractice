@@ -114,6 +114,8 @@
 
 [101. Symmetric Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/101.%20Symmetric%20Tree.py)
 
+[102. Binary Tree Level Order Traversal](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/102.%20Binary%20Tree%20Level%20Order%20Traversal.py) 一口气流畅的写完 自我陶醉觉得写的很好 结果超时 找了很久bug 无语 我不超时谁超时！！！！！！！你知道错了吗！你错在哪了！！！ 知道了，每次pop出来的存在了cur里，判断应该判断cur的左节点和右节点，而我仍然写root.left root.right，呜呜呜我是猪你吃了我吧QuQ
+
 [104. Maximum Depth of Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.py)
 
 [107. Binary Tree Level Order Traversal II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/107.%20Binary%20Tree%20Level%20Order%20Traversal.py)
