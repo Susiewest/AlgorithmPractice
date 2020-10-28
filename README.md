@@ -120,6 +120,8 @@
 
 [104. Maximum Depth of Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.py)
 
+[105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.py)
+
 [107. Binary Tree Level Order Traversal II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/107.%20Binary%20Tree%20Level%20Order%20Traversal.py)
 
 [108. Convert Sorted Array to Binary Search Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py)
@@ -129,6 +131,8 @@
 [111. Minimum Depth of Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)
 
 [112. Path Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/112.%20Path%20Sum.py)
+
+[116. Populating Next Right Pointers in Each Node](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.py) 为了满足测试用例 改了两个地方,第二个地方其实是关键,我以为第一个是,第一个完全可以不改!!!
 
 [118. Pascal's Triangle](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/118.%20Pascal's%20Triangle.py)
 
