@@ -96,7 +96,7 @@
 
 [75. Sort Colors](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/75.%20Sort%20Colors.py)在王道见过类似题！一下子就想起来啦 没有困难的工作！只有见题不够多的狗勾！
 
-[78. Subsets](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/78.%20Subsets.py)第一次自己独立写出回溯！而且发现了一个很容易犯错的bug出现地！加油铁废物！2020/10/24
+[78. Subsets](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/78.%20Subsets.py)第一次自己独立写出回溯！而且发现了一个很容易犯错的bug出现地！加油，铁废物！2020/10/24
 
 [79. Word Search](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/79.%20Word%20Search.py)1. 和200不同，200需要记录状态（题目已给出状态数组），但不需恢复原状态，也不需要return t/f，只需统计连成片的区域个数 2. 79只要有一个对的就全对，98题只要有一个错的就全错，可以对比学习
 
