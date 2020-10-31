@@ -144,7 +144,17 @@
 
 [125. Valid Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/125.%20Valid%20Palindrome.py)
 
+[127. Word Ladder](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/127.%20Word%20Ladder.py) 双向bfs写法没写 好难脑子好累以后再写吧QuQ
+
+[130. Surrounded Regions](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/130.%20Surrounded%20Regions.py) 和200有点像的题
+
+[131. Palindrome Partitioning](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/131.%20Palindrome%20Partitioning.py) 二刷时应实现回溯
+
+[134. Gas Station](https://github.com/Susiewest/AlgorithmPractice/blob/master/Greedy/134.%20Gas%20Station.py) 感觉贪心策略没完全懂 自己的办法超时了 
+
 [136. Single Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/136.%20Single%20Number.py)
+
+[138. Copy List with Random Pointer](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/138.%20Copy%20List%20with%20Random%20Pointer.py)
 
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList.py)
 
