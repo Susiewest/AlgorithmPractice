@@ -156,6 +156,8 @@
 
 [138. Copy List with Random Pointer](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/138.%20Copy%20List%20with%20Random%20Pointer.py)
 
+[139. Word Break](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/139.%20Word%20Break.py) 只要努力！！！就有好事发生！！！付出！！！就会有回报！！！加油！！！奥利给！！！
+
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList.py)
 
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack.py)
