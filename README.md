@@ -214,6 +214,8 @@
 
 [242. Valid Anagram](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/242.%20Valid%20Anagram.py)
 
+[268. Missing Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/268.%20Missing%20Number.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
