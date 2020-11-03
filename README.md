@@ -160,6 +160,8 @@
 
 [141. Linked List Cycle](https://github.com/Susiewest/AlgorithmPractice/tree/master/LinkList.py)
 
+[146. LRU Cache](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/146.%20LRU%20Cache.py)
+
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack.py)
 
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists.py)
