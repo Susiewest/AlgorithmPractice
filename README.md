@@ -72,7 +72,7 @@
 
 [50. Pow(x, n)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/50.%20Pow(x,%20n).py) 官方题解还有更好的方法
 
-[53. 最大子序和](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/53.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)
+[53. Maximum Subarray](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/53.%20Maximum%20Subarray.py)
 
 [54. Spiral Matrix](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/54.%20Spiral%20Matrix.py)
 
