@@ -141,4 +141,7 @@ class Solution:
             interval*= 2
         return dummy.next
 
+执行用时：428 ms, 在所有 Python3 提交中击败了8.27%的用户
+内存消耗：28.6 MB, 在所有 Python3 提交中击败了15.14%的用户
+
             
