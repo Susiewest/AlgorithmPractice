@@ -164,6 +164,8 @@
 
 [148. Sort List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/148.%20Sort%20List.py) o(logn)时间 o(1)空间的链表排序 while length1>0不超时，while length就超时？？？疑惑
 
+[150. Evaluate Reverse Polish Notation](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/150.%20Evaluate%20Reverse%20Polish%20Notation.py)
+
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack.py)
 
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists.py)
