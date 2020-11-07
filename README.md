@@ -170,6 +170,8 @@
 
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists.py)
 
+[162. Find Peak Element](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/162.%20Find%20Peak%20Element.py)
+
 [167. Two Sum II - Input array is sorted](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py)
 
 [168. Excel Sheet Column Title](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/168.%20Excel%20Sheet%20Column%20Title.py.py)
