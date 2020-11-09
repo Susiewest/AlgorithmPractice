@@ -31,3 +31,34 @@ class Solution:
 执行用时：44 ms, 在所有 Python3 提交中击败了93.66%的用户
 内存消耗：14.2 MB, 在所有 Python3 提交中击败了52.12%的用户
 
+dfs判断有无环
+#使用bfs的方法就是拓扑排序判断有没有环 使用dfs的方法就是使用记忆数组
+#flag=0 未被访问 flag=1 之前访问过，返回，flag=2，当前点访问过程中遇到过，成环，return false，这里是只要有一个false就是false，所以记得把dfs写在if里，而非return dfs
+
+import collections
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        def dfs(adjacent, flag, i):
+            if flag[i]==1:
+                return True
+            if flag[i]==2:
+                return False
+            flag[i]=2
+            for j in adjacent[i]:
+                if not dfs(adjacent, flag, j):
+                    return False
+            #记得让flag变为1 以后对于别的节点来说 它是之前遍历过的 可以直接返回结果true 而非当前环中遍历过
+            flag[i]=1
+            return True
+        #使用bfs的方法就是拓扑排序判断有没有环 使用dfs的方法就是使用记忆数组
+        flag = [0 for _ in range(numCourses)]
+        adjacent = [[] for _ in range(numCourses)]
+        for cur, pre in prerequisites:
+            adjacent[pre].append(cur)
+        for i in range(numCourses):
+            if not dfs(adjacent, flag, i):
+                return False
+        return True
+        
+执行用时：56 ms, 在所有 Python3 提交中击败了46.52%的用户
+内存消耗：16.1 MB, 在所有 Python3 提交中击败了19.96%的用户
