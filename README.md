@@ -235,4 +235,7 @@
 
 
 剑指offer
+
 [剑指 Offer 03. 数组中重复的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2003.%20数组中重复的数字.py)
+
+[剑指 Offer 05. 替换空格](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2005.%20替换空格.py)
