@@ -208,6 +208,8 @@
 
 [208. Implement Trie (Prefix Tree)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/208.%20Implement%20Trie%20(Prefix%20Tree).py)
 
+[210. Course Schedule II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/210.%20Course%20Schedule%20II.py) 可以dfs构建逆邻接表做，只实现了拓扑排序，拓扑做起来更方便
+
 [217. Contains Duplicate](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/217.%20Contains%20Duplicate.py)
 
 [219. Contains Duplicate II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/219.%20Contains%20Duplicate%20II.py)
@@ -239,3 +241,5 @@
 [剑指 Offer 03. 数组中重复的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2003.%20数组中重复的数字.py)
 
 [剑指 Offer 05. 替换空格](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2005.%20替换空格.py)
+
+[剑指 Offer 06. 从尾到头打印链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2006.%20从尾到头打印链表.py)
