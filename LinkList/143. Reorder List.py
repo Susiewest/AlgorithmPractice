@@ -1,5 +1,8 @@
 完全自己想的思路&写的题解 find mid-reverse-concate
-为什么题解里合并没有考虑l1/l2多一个的情况
+为什么题解里合并没有考虑l1/l2多一个的情况 哦！知道了 合并部分写的不完全一样
+答案直接在l1的基础上见缝插针 我是另外起了一个result，合并二者，所以我最后没有那步 l2.next=l1 还要另外处理
+他的答案是 l1.next=l2 l1=l1temp l2.next=l1 l2=l2temp 这样处理到最后 l2.next=l1 解决了奇数个节点时，前半个链表比后半个链表长1的情况
+还有个答案是list存节点再按下标访问
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -26,6 +29,7 @@ class Solution:
         dummy = ListNode(-1)
         dummy.next = None
         while p:
+            #把这行放在这里可以避免写在while最后 p=r=none r=p.next none无next的问题，也就是确认p不为空了再取他的next
             r = p.next
             p.next = dummy.next
             dummy.next = p
