@@ -245,3 +245,5 @@
 [剑指 Offer 05. 替换空格](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2005.%20替换空格.py)
 
 [剑指 Offer 06. 从尾到头打印链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2006.%20从尾到头打印链表.py)
+
+[剑指 Offer 09. 用两个栈实现队列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2009.%20用两个栈实现队列.py)
