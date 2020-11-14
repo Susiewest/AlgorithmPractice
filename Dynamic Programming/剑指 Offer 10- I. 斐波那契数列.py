@@ -12,6 +12,8 @@ class Solution:
 执行用时：28 ms, 在所有 Python3 提交中击败了99.00%的用户
 内存消耗：13.5 MB, 在所有 Python3 提交中击败了24.96%的用户
 
+@functools.lru_cache(maxsize=None, typed=False)
+使用 functools 模块的 lur_cache 装饰器，可以缓存最多 maxsize 个此函数的调用结果，从而提高程序执行的效率，特别适合于耗时的函数。参数 maxsize 为最多缓存的次数，如果为 None，则无限制，
 from functools import lru_cache
 class Solution:
     @lru_cache(None)
