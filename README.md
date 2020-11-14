@@ -220,6 +220,10 @@
 
 [226. Invert Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/226.%20Invert%20Binary%20Tree.py)
 
+[227. Basic Calculator II](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/227.%20Basic%20Calculator%20II.py) 好多坑的一个题，学习到了如何向0取整，栈中处理乘除要覆盖最后一个元素而非append
+
+[230. Kth Smallest Element in a BST](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)
+
 [231. Power of Two](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/231.%20Power%20of%20Two.py)
 
 [232. Implement Queue using Stacks](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/232.%20Implement%20Queue%20using%20Stacks.py)
@@ -247,3 +251,5 @@
 [剑指 Offer 06. 从尾到头打印链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2006.%20从尾到头打印链表.py)
 
 [剑指 Offer 09. 用两个栈实现队列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2009.%20用两个栈实现队列.py)
+
+[剑指 Offer 10- I. 斐波那契数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2010-%20I.%20斐波那契数列.py) 139题曾用过的lru_cache，此题也可用，定期复习
