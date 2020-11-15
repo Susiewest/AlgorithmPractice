@@ -1,4 +1,7 @@
-#乘积=当前数左边的乘积*右边的乘积 左边一遍右边更新一遍
+乘积=当前数左边的乘积*右边的乘积 左边一遍右边更新一遍
+重点！计算的是“不包含当前位置元素”的左边的乘积 也就是初始化的第一个位置应为1而非num[0]本身
+计算时也是先赋值给result再乘以当前元素
+
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         result = []
