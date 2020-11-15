@@ -212,6 +212,8 @@
 
 [210. Course Schedule II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/210.%20Course%20Schedule%20II.py) 可以dfs构建逆邻接表做，只实现了拓扑排序，拓扑做起来更方便
 
+[215. Kth Largest Element in an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) 只需分治一侧 称之为减治，减而治之
+
 [217. Contains Duplicate](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/217.%20Contains%20Duplicate.py)
 
 [219. Contains Duplicate II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/219.%20Contains%20Duplicate%20II.py)
@@ -235,6 +237,8 @@
 [236. Lowest Common Ancestor of a Binary Tree](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.py) 
 
 [237. Delete Node in a Linked List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/237.%20Delete%20Node%20in%20a%20Linked%20List.py) 公共祖先 很经典
+
+[240. Search a 2D Matrix II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/240.%20Search%20a%202D%20Matrix%20II.py) 又一个减治的题，可结合215题学习
 
 [242. Valid Anagram](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/242.%20Valid%20Anagram.py)
 
