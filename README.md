@@ -246,6 +246,8 @@
 
 [279. Perfect Squares](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/279.%20Perfect%20Squares.py) 感觉有点难，可以用数学的办法解决，没仔细看，但dp和bfs的方法都是我想不到的，很妙
 
+[326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
