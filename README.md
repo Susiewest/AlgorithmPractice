@@ -246,7 +246,11 @@
 
 [279. Perfect Squares](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/279.%20Perfect%20Squares.py) 感觉有点难，可以用数学的办法解决，没仔细看，但dp和bfs的方法都是我想不到的，很妙
 
+[287. Find the Duplicate Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/287.%20Find%20the%20Duplicate%20Number.py)值域二分而非下标二分，新思路
+
 [326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
+
+[344. Reverse String](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/344.%20Reverse%20String.py) hard题我唯唯诺诺，easy题我重拳出击
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
