@@ -1,3 +1,7 @@
+写了一个卷积的过程，在新数组的padding填充，计算后赋值给原数组
+为了进行点乘运算要以np.array的形式写
+也可以不卷积，硬copy一个新数组，设置八个方向的下标变化值，统计，类似200题，不越界的下标进行计数，再对计数做判断
+
 import numpy as np
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
