@@ -250,9 +250,9 @@
 
 [289. Game of Life](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/289.%20Game%20of%20Life.py) 卷积 牛批
 
-[326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%
+[300. Longest Increasing Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/300.%20Longest%20Increasing%20Subsequence.py)
 
-20Power%20of%20Three.py)
+[326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
 
 [344. Reverse String](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/344.%20Reverse%20String.py) hard题我唯唯诺诺，easy题我重拳出击
 
