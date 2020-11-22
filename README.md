@@ -248,7 +248,11 @@
 
 [287. Find the Duplicate Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/287.%20Find%20the%20Duplicate%20Number.py) 值域二分而非下标二分，新思路，又见鸽巢原理
 
-[326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
+[289. Game of Life](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/289.%20Game%20of%20Life.py) 卷积 牛批
+
+[326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%
+
+20Power%20of%20Three.py)
 
 [344. Reverse String](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/344.%20Reverse%20String.py) hard题我唯唯诺诺，easy题我重拳出击
 
