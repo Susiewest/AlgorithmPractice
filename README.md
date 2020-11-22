@@ -250,7 +250,7 @@
 
 [289. Game of Life](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/289.%20Game%20of%20Life.py) 卷积 牛批
 
-[300. Longest Increasing Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/300.%20Longest%20Increasing%20Subsequence.py)
+[300. Longest Increasing Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/300.%20Longest%20Increasing%20Subsequence.py) md 我是不是这辈子都学不会动态规划了
 
 [326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
 
