@@ -256,6 +256,8 @@
 
 [326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
 
+[328. Odd Even Linked List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/328.%20Odd%20Even%20Linked%20List.py) dummy不用设置，搞清楚怎么写不会太冗余
+
 [344. Reverse String](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/344.%20Reverse%20String.py) hard题我唯唯诺诺，easy题我重拳出击
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
