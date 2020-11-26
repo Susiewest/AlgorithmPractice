@@ -49,3 +49,76 @@ class Solution:
         
 执行用时：44 ms, 在所有 Python3 提交中击败了94.87%的用户
 内存消耗：14.4 MB, 在所有 Python3 提交中击败了57.98%的用户
+
+
+#先用快排的办法做快速选择找中位数（不需要像快排一样对左右两侧递归，只需要对一侧递归找到中位数
+#快速选择只能保证左边都小于mid 右边都大于mid 还不能直接插入，还需要左右变得有序
+#荷兰旗做法 3-way partition，将一个数组按照某个target值分为三部分，使得左边部分的值小于 target，中间部分等于 target，右边部分大于 target
+#用三个指针将数组分为四个部分，通过一次扫描最终将数组分为 <，=，> 的三部分
+#以中位数为target，让中间都是中位数，左边小于中位数， 右边大于中位数
+class Solution:
+    def wiggleSort(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        if len(nums)<2:
+            return nums
+        # 快排
+        def partition(nums, left, right):
+            pivot = nums[left]
+            while left<right:
+                #一开始没写=，陷入了死循环。。。
+                while nums[right]>=pivot and left<right:
+                    right-=1
+                nums[left]=nums[right]
+                while nums[left]<=pivot and left<right:
+                    left+=1
+                nums[right]=nums[left]
+            nums[left]=pivot
+            return left
+        # 快排找等于中位数下标的pivot_pos，记为target
+        mid = (len(nums)-1)//2
+        left, right = 0, len(nums)-1
+        while True:
+            pivot_pos = partition(nums, left, right)
+            if pivot_pos==mid:
+                target = nums[mid]
+                break
+            elif pivot_pos<mid:
+                left = pivot_pos+1
+            else:
+                right = pivot_pos-1
+        #3-partition
+        i, j = 0, len(nums)-1
+        k = i
+        while k<j:  #注意这里是工作指针小于尾指针结束，而非i<j
+            if nums[k]<target:
+                nums[i], nums[k] = nums[k], nums[i]
+                i+=1
+                k+=1
+            elif nums[k]>target:
+                nums[j], nums[k] =nums[k], nums[j]
+                j-=1
+            else:
+                k+=1
+        #交叉逆序合并
+        if len(nums)%2==0:
+            nums[len(nums)-2::-2], nums[len(nums)-1::-2]=nums[:mid+1], nums[mid+1:]
+        else:
+            nums[len(nums)-1::-2], nums[len(nums)-2::-2]=nums[:mid+1], nums[mid+1:]
+        # small,big ,_nums = mid,len(nums)-1,nums[:]
+        # for i in range(len(nums)):
+        #     if i%2 == 0:
+        #         nums[i] = _nums[small]
+        #         small -= 1
+        #     else:#big
+        #         nums[i] = _nums[big]
+        #         big -= 1
+
+执行用时：2608 ms, 在所有 Python3 提交中击败了6.67%的用户
+内存消耗：14.4 MB, 在所有 Python3 提交中击败了37.53%的用户
+
+
+
+
+            
