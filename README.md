@@ -260,6 +260,8 @@
 
 [328. Odd Even Linked List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/328.%20Odd%20Even%20Linked%20List.py) dummy不用设置，搞清楚怎么写不会太冗余
 
+[334. Increasing Triplet Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/334.%20Increasing%20Triplet%20Subsequence.py) 题目要求on时间复杂度，o1空间，我用动态规划是on2时间复杂度，on的空间复杂度，看了答案原来可以设置两个变量。。
+
 [344. Reverse String](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/344.%20Reverse%20String.py) hard题我唯唯诺诺，easy题我重拳出击
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
