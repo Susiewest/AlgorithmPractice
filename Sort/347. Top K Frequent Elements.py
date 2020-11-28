@@ -30,13 +30,14 @@ class Solution:
  求前 k 大，用小根堆，求前 k 小，用大根堆。
  使用大根堆，当海量数据时，存储将是瓶颈。使用小根堆的话，只需存储k个元素。
  
- heappush(heap, x) 将x压入堆中
- heappop(heap)    从堆中弹出最小的元素 使用heap[0] ，可以只访问最小的元素而不弹出它。
- 
-1. 所以heapq模块只能搞小根堆，return最小值，想要找topk，就得所有频次取反找最小k
-2. 压入堆时，以（负的频次，元素值）的形式，这样才能找到前k个频次对应的元素，此外，找最小的k个负频次，如果写成（item，-freq[item]) heappop就只能返回item的最小k
-3. import xxx的写法，下面就必须要加xxx.function
-如果是from xxx import * 的写法，下面就不用加
+    heappush(heap, x) 将x压入堆中
+    heappop(heap)    从堆中弹出最小的元素 使用heap[0] ，可以只访问最小的元素而不弹出它。
+    https://docs.python.org/zh-cn/3.8/library/heapq.html
+
+    1. 所以heapq模块只能搞小根堆，return最小值，想要找topk，就得所有频次取反找最小k
+    2. 压入堆时，以（负的频次，元素值）的形式，这样才能找到前k个频次对应的元素，此外，找最小的k个负频次，如果写成（item，-freq[item]) heappop就只能返回item的最小k
+    3. import xxx的写法，下面就必须要加xxx.function
+    如果是from xxx import * 的写法，下面就不用加
 
 import heapq
 class Solution:
