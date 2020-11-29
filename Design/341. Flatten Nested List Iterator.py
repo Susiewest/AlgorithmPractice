@@ -4,8 +4,9 @@
 这样一次只返回一个，需要递归/迭代处理了当前元素以后再重新加入的，使用栈比较合适（看答案倒推的思路。。
 为什么判断和处理都写在hasnext里而不写在next里，我感觉是hasnext首先是执行next前的判断，在这里处理不会对结果造成影响
 再就是hasnext既判断了有无下一个，可以顺便把下一个处理好。。我在说什么啊啊啊我这个题其实是没完全想明白的呜呜呜
-下面我将尝试使用普通的list，或者说队列（先进的integer先出）来尝试做一下这个题,这样不用全部先倒序存进去，每次pop一个处理完再放回去，而是处理好一个才放进去
-
+明天我将尝试使用普通的list，或者说队列（先进的integer先出）来尝试做一下这个题,这样不用全部先倒序存进去，每次pop一个处理完再放回去，而是处理好一个才放进去
+下面是看答案写的栈的做法：栈顶元素为整数时，next 函数直接返回
+栈顶元素为列表时，hasNext 函数将该列表弹出栈后，再逆序连接（用+而非append）入栈中
 # """
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation
