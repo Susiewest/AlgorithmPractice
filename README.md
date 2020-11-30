@@ -262,6 +262,8 @@
 
 [334. Increasing Triplet Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/334.%20Increasing%20Triplet%20Subsequence.py) 题目要求on时间复杂度，o1空间，我用动态规划是on2时间复杂度，on的空间复杂度，看了答案原来可以设置两个变量。。
 
+[341. Flatten Nested List Iterator](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/341.%20Flatten%20Nested%20List%20Iterator.py) design类型的题可以说是我的一生之敌了。。。把嵌套的list展平，不难，就是花了很长时间才搞懂函数需求，破括号用加号/递归
+
 [344. Reverse String](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/344.%20Reverse%20String.py) hard题我唯唯诺诺，easy题我重拳出击
 
 [347. Top K Frequent Elements](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/347.%20Top%20K%20Frequent%20Elements.py) hash+ 1. most_common 2. 桶排序（拉链法）空间换时间 3. top k堆排序
