@@ -164,3 +164,6 @@ class NestedIterator:
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []
 # while i.hasNext(): v.append(i.next())
+
+执行用时：72 ms, 在所有 Python3 提交中击败了81.80%的用户
+内存消耗：17.1 MB, 在所有 Python3 提交中击败了33.03%的用户
