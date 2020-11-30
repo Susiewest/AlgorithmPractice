@@ -52,3 +52,115 @@ class NestedIterator:
 执行用时：88 ms, 在所有 Python3 提交中击败了27.13%的用户
 内存消耗：17.1 MB, 在所有 Python3 提交中击败了15.84%的用户
 
+#首先我是设置了一个空的队列，等nestedlist里处理好了再放进来，这样有一个问题是，迭代处理好了第一个元素以后，无法将指针指向nestedlist的下个元素
+#如果设置一个指针指向nestedlist，又无法对刚取出来的元素迭代处理，处理好了一层加入到queue里，里面的层还要继续处理，指针怎么再跳到queue里处理，很乱
+#于是我选择了将nestedlist直接复制到queue，然后从第一个元素开始处理
+#又出现了问题，不能像栈一样直接“+”了，直接+的话，[]是去掉了，但是元素顺序也变了，处理好的当前元素们应该从队列左端送入
+#改为self.queue=self.queue.popleft().getList()+self.queue 又说不能让deque和list concatenate
+#无语凝噎 人果然只有在做了尝试以后才知道为什么最好用栈而非队列，栈处理好了直接push进去就好了，队列处理好了还要从头部塞进去
+#除非按照最初的想法，不一下子复制过来，处理好一个放一个，但是这样指针又很混乱 日了
+# """
+# This is the interface that allows for creating nested lists.
+# You should not implement it, or speculate about its implementation
+# """
+#class NestedInteger:
+#    def isInteger(self) -> bool:
+#        """
+#        @return True if this NestedInteger holds a single integer, rather than a nested list.
+#        """
+#
+#    def getInteger(self) -> int:
+#        """
+#        @return the single integer that this NestedInteger holds, if it holds a single integer
+#        Return None if this NestedInteger holds a nested list
+#        """
+#
+#    def getList(self) -> [NestedInteger]:
+#        """
+#        @return the nested list that this NestedInteger holds, if it holds a nested list
+#        Return None if this NestedInteger holds a single integer
+#        """
+
+class NestedIterator:
+    def __init__(self, nestedList: [NestedInteger]):
+        self.queue = collections.deque()
+        
+    
+    def next(self) -> int:
+        return self.queue.popleft()
+        
+    
+    def hasNext(self) -> bool:
+        if len(self.queue)==0:
+            if self.queue[0].getInteger():
+                self.queue.append(self.nestedList.getInteger())
+            else:
+                self.queue.append(self.nestedList.getList())
+        while len(self.queue)>0 and not self.queue[0].getInteger():
+            self.queue=self.queue.popleft().getList()+self.queue #连接两个list
+            #这个时候该怎么让nestedlist里面的指针++？
+        return len(self.queue)>0
+        
+         
+
+# Your NestedIterator object will be instantiated and called as such:
+# i, v = NestedIterator(nestedList), []
+# while i.hasNext(): v.append(i.next())
+
+#不能像栈一样直接“+”了，处理好的当前元素们应该从队列左端送入
+#我还是太弱鸡了 日了上面这句话是错的，其实是可以在后面+的，把nestedlist赋值给queue，每次popleft一个，处理好了放在后面，所有的处理完了还是按顺序的
+#脑子里一直想着递归，上面的写法在实现的时候又卡了
+最后还是看了题解区的队列做法 我好笨呐 也不难 就写不出来呜呜
+
+# """
+# This is the interface that allows for creating nested lists.
+# You should not implement it, or speculate about its implementation
+# """
+#class NestedInteger:
+#    def isInteger(self) -> bool:
+#        """
+#        @return True if this NestedInteger holds a single integer, rather than a nested list.
+#        """
+#
+#    def getInteger(self) -> int:
+#        """
+#        @return the single integer that this NestedInteger holds, if it holds a single integer
+#        Return None if this NestedInteger holds a nested list
+#        """
+#
+#    def getList(self) -> [NestedInteger]:
+#        """
+#        @return the nested list that this NestedInteger holds, if it holds a nested list
+#        Return None if this NestedInteger holds a single integer
+#        """
+
+class NestedIterator:
+    def __init__(self, nestedList: [NestedInteger]):
+        self.queue = collections.deque()
+        def nested(nested_list):
+            for i in nested_list:
+                #if i.getInteger(): 这么写当interger是0的时候也不执行这个
+                if i.isInteger():
+                    self.queue.append(i.getInteger())
+                else:
+                    nested(i.getList())
+            #这个时候该怎么让nestedlist里面的指针++？
+        nested(nestedList)
+    
+    def next(self) -> int:
+        return self.queue.popleft()
+        
+    
+    def hasNext(self) -> bool:
+        # if len(self.queue)==0:
+        #     if self.queue[0].getInteger():
+        #         self.queue.append(self.nestedList.getInteger())
+        #     else:
+        #         self.queue.append(self.nestedList.getList())
+        return len(self.queue)>0
+        
+         
+
+# Your NestedIterator object will be instantiated and called as such:
+# i, v = NestedIterator(nestedList), []
+# while i.hasNext(): v.append(i.next())
