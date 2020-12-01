@@ -268,6 +268,8 @@
 
 [347. Top K Frequent Elements](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/347.%20Top%20K%20Frequent%20Elements.py) hash+ 1. most_common 2. 桶排序（拉链法）空间换时间 3. top k堆排序
 
+[378. Kth Smallest Element in a Sorted Matrix](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py) 1. 值二分，而非有序数组下标二分。2. n路归并排序。
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
