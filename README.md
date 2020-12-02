@@ -270,6 +270,8 @@
 
 [378. Kth Smallest Element in a Sorted Matrix](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py) 1. 值二分，而非有序数组下标二分。2. n路归并排序。
 
+[380. Insert Delete GetRandom O(1)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/380.%20Insert%20Delete%20GetRandom%20O(1).py) O(1)时间复杂度的插入删除必用hash，光用hash只能定位，如何常数时间删除？把最后一个元素覆盖要删除的元素，然后删除最后一个元素～注意 set无法随机访问下标，所以即使题目里说的set，还是要用list+dict实现，读题不要断章取义。
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
