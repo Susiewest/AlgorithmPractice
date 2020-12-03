@@ -289,3 +289,5 @@
 [剑指 Offer 09. 用两个栈实现队列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2009.%20用两个栈实现队列.py)
 
 [剑指 Offer 10- I. 斐波那契数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2010-%20I.%20斐波那契数列.py) 139题曾用过的lru_cache，此题也可用，定期复习
+
+[剑指 Offer 15. 二进制中1的个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2015.%20二进制中1的个数.py) 是n>>=1不是n=>>1啦QuQ
