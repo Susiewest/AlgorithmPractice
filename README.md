@@ -272,6 +272,8 @@
 
 [380. Insert Delete GetRandom O(1)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/380.%20Insert%20Delete%20GetRandom%20O(1).py) O(1)时间复杂度的插入删除必用hash，光用hash只能定位，如何常数时间删除？把最后一个元素覆盖要删除的元素，然后删除最后一个元素～注意 set无法随机访问下标，所以即使题目里说的set，还是要用list+dict实现，读题不要断章取义。
 
+[384. Shuffle an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/384.%20Shuffle%20an%20Array.py) 硬拷贝！Fisher-Yates 洗牌算法！
+
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
 
