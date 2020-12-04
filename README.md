@@ -278,7 +278,7 @@
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
-
+[412. Fizz Buzz](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/412.%20Fizz%20Buzz.py)
 
 剑指offer
 
