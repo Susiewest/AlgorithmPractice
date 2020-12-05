@@ -274,6 +274,8 @@
 
 [384. Shuffle an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/384.%20Shuffle%20an%20Array.py) 硬拷贝！Fisher-Yates 洗牌算法！
 
+[387. First Unique Character in a String](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/387.%20First%20Unique%20Character%20in%20a%20String.py)
+
 [395. Longest Substring with At Least K Repeating Characters](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.py)字符串.count()统计频次，split划分，分治
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
