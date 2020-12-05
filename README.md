@@ -280,6 +280,8 @@
 
 [412. Fizz Buzz](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/412.%20Fizz%20Buzz.py)
 
+[454. 4Sum II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/454.%204Sum%20II.py)
+
 剑指offer
 
 [剑指 Offer 03. 数组中重复的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2003.%20数组中重复的数字.py) 鸽巢原理，吊
