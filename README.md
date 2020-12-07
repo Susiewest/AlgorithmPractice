@@ -288,9 +288,13 @@
 
 [剑指 Offer 03. 数组中重复的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2003.%20数组中重复的数字.py) 鸽巢原理，吊
 
+[剑指 Offer 04. 二维数组中的查找](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/剑指%20Offer%2004.%20二维数组中的查找.py) 和240题一样
+
 [剑指 Offer 05. 替换空格](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2005.%20替换空格.py)
 
 [剑指 Offer 06. 从尾到头打印链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2006.%20从尾到头打印链表.py)
+
+[剑指 Offer 07. 重建二叉树](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2007.%20重建二叉树.py) 和105题一样
 
 [剑指 Offer 09. 用两个栈实现队列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2009.%20用两个栈实现队列.py)
 
