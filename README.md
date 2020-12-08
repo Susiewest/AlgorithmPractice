@@ -300,6 +300,6 @@
 
 [剑指 Offer 10- I. 斐波那契数列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2010-%20I.%20斐波那契数列.py) 139题曾用过的lru_cache，此题也可用，定期复习
 
-[剑指 Offer 11. 旋转数组的最小数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/剑指%20Offer%2011.%20旋转数组的最小数字.py)
+[剑指 Offer 11. 旋转数组的最小数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/剑指%20Offer%2011.%20旋转数组的最小数字.py)说是和154题相同，我觉得和33题也可以对比学习一下
 
 [剑指 Offer 15. 二进制中1的个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2015.%20二进制中1的个数.py) 是n>>=1不是n=>>1啦QuQ
