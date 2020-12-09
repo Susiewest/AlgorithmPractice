@@ -302,4 +302,6 @@
 
 [剑指 Offer 11. 旋转数组的最小数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/剑指%20Offer%2011.%20旋转数组的最小数字.py)说是和154题相同，我觉得和33题也可以对比学习一下
 
+[剑指 Offer 12. 矩阵中的路径](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/剑指%20Offer%2012.%20矩阵中的路径.py) 和79题一样，旧题出新错，值得反复回顾
+
 [剑指 Offer 15. 二进制中1的个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2015.%20二进制中1的个数.py) 是n>>=1不是n=>>1啦QuQ
