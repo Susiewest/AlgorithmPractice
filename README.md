@@ -308,6 +308,6 @@
 
 [剑指 Offer 14- I. 剪绳子](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2014-%20I.%20剪绳子.py) 题目类似于一个正整数可以拆成其他正整数的和,求这些正整数的最大连乘积. 动态规划做法。
 
-[剑指 Offer 14- I. 剪绳子]（https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2014-%20I.%20剪绳子.py）数学求导数分析做法，按3等分相乘。
+[剑指 Offer 14- I. 剪绳子](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2014-%20I.%20剪绳子.py) 数学求导数分析做法，按3等分相乘。
 
 [剑指 Offer 15. 二进制中1的个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2015.%20二进制中1的个数.py) 是n>>=1不是n=>>1啦QuQ
