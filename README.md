@@ -310,4 +310,6 @@
 
 [剑指 Offer 14- I. 剪绳子](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2014-%20I.%20剪绳子.py) 数学求导数分析做法，按3等分相乘。
 
+[剑指 Offer 14- II. 剪绳子 II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2014-%20II.%20剪绳子%20II.py) 差不多得了
+
 [剑指 Offer 15. 二进制中1的个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2015.%20二进制中1的个数.py) 是n>>=1不是n=>>1啦QuQ
