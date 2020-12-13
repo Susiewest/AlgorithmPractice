@@ -313,3 +313,5 @@
 [剑指 Offer 14- II. 剪绳子 II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2014-%20II.%20剪绳子%20II.py) 差不多得了
 
 [剑指 Offer 15. 二进制中1的个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2015.%20二进制中1的个数.py) 是n>>=1不是n=>>1啦QuQ
+
+[剑指 Offer 16. 数值的整数次方](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2016.%20数值的整数次方.py) 和50题一样的，快速幂，50题我给分类到分治了，这个题我分类到数学了。。。
