@@ -316,4 +316,4 @@
 
 [剑指 Offer 16. 数值的整数次方](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2016.%20数值的整数次方.py) 和50题一样的，快速幂，50题我给分类到分治了，这个题我分类到数学了。。。
 
-[剑指 Offer 18. 删除链表的节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2018.%20删除链表的节点.py) 这个题比书上简化了
+[剑指 Offer 18. 删除链表的节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2018.%20删除链表的节点.py) 这个题比书上简化了，和380题共同食用
