@@ -319,3 +319,5 @@
 [剑指 Offer 18. 删除链表的节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2018.%20删除链表的节点.py) 这个题比书上简化了，和380题共同食用
 
 [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2021.%20调整数组顺序使奇数位于偶数前面.py)
+
+[剑指 Offer 22. 链表中倒数第k个节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2022.%20链表中倒数第k个节点.py)
