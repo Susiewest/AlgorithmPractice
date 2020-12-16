@@ -321,3 +321,5 @@
 [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2021.%20调整数组顺序使奇数位于偶数前面.py)
 
 [剑指 Offer 22. 链表中倒数第k个节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2022.%20链表中倒数第k个节点.py)
+
+[剑指 Offer 24. 反转链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2024.%20反转链表.py)
