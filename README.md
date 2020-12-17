@@ -323,3 +323,5 @@
 [剑指 Offer 22. 链表中倒数第k个节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2022.%20链表中倒数第k个节点.py)
 
 [剑指 Offer 24. 反转链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2024.%20反转链表.py)
+
+[剑指 Offer 25. 合并两个排序的链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2025.%20合并两个排序的链表.py) 和20题同
