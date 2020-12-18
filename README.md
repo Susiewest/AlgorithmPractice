@@ -327,3 +327,5 @@
 [剑指 Offer 25. 合并两个排序的链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2025.%20合并两个排序的链表.py) 和20题同
 
 [剑指 Offer 26. 树的子结构](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2026.%20树的子结构.py)  对递归到底要不要新定义函数有疑问
+
+[剑指 Offer 31. 栈的压入、弹出序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/剑指%20Offer%2031.%20栈的压入、弹出序列.py) 好久没有做中等题啦！自己独立做出来！开心！
