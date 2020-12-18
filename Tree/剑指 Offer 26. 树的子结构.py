@@ -20,6 +20,10 @@ class Solution:
         if A is None or B is None:
             return False
         return recur(A, B)
+    
+为啥要另外再定义一个recur？
+这个题的思路是先遍历A的每个节点，然后以每个节点为根判断是否存在和B一致的子树
+遍历A的每个节点要用外层定义的函数，判断是否存在子树另外def了recur
         
 # Definition for a binary tree node.
 # class TreeNode:
