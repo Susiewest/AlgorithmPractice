@@ -19,7 +19,10 @@ class Solution:
                 while len(stack)>0 and stack[-1]==popped[cur]:
                     stack.pop()
                     cur+=1
-        return False if len(stack)>0 else True       
+        return False if len(stack)>0 else True   
+    
+    
+看题解最后一句写return not stack 感觉学到了
 
 执行用时：36 ms, 在所有 Python3 提交中击败了97.03%的用户
 内存消耗：14.9 MB, 在所有 Python3 提交中击败了5.29%的用户
