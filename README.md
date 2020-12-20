@@ -334,4 +334,4 @@
 
 [剑指 Offer 32 - II. 从上到下打印二叉树 II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/剑指%20Offer%2032%20-%20II.%20从上到下打印二叉树%20II.py)  要求每层隔离加入result，bfs中要限制当前层，每结束一层加入result
 
-[剑指 Offer 32 - III. 从上到下打印二叉树 III](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/%E5%89%91%E6%8C%87%20Offer%2032%20-%20III.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20III.py)
+[剑指 Offer 32 - III. 从上到下打印二叉树 III](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/%E5%89%91%E6%8C%87%20Offer%2032%20-%20III.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20III.py) 一层从从左到右，一层从右到左，学习判断奇偶层的方法。
