@@ -35,7 +35,17 @@ https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lco
 借助单调栈来实现，保存递增的节点，遇到递减的就出栈更新root，遇到大于当前值的就出栈！一直出！因为比当前值大的最小数在最前面！
 到第一个大于当前值的点就是root
 也就是单调栈里只保存了递增序列，
-到第一个大于当前值root
-到第一个大于当前值一直
-到第一个大于当前值保存
-到第一个大于当前值
+root只在当前值为递减的时候，更新当前值的root
+当前值后面的所有值都要小于root。不然就return False
+class Solution:
+    def verifyPostorder(self, postorder: List[int]) -> bool:
+        stack, root = [], float('inf')
+        for i in range(len(postorder)-1,-1,-1):
+            if postorder[i]>root: return False
+            while stack and postorder[i]<stack[-1]:
+                root = stack.pop()
+            stack.append(postorder[i])
+        return True
+执行用时：24 ms, 在所有 Python3 提交中击败了99.85%的用户
+内存消耗：14.8 MB, 在所有 Python3 提交中击败了5.03%的用户
+
