@@ -339,3 +339,5 @@
 [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2033.%20二叉搜索树的后序遍历序列.py) 后序遍历的处理，用到了单调栈。感觉思路还挺难的。递归的话参考先序，先确定根，找到第一个大于根值的值，再判断右边的值是否都满足条件。
 
 [剑指 Offer 34. 二叉树中和为某一值的路径](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/剑指%20Offer%2034.%20二叉树中和为某一值的路径.py) 回溯，当答案中每个答案重复的时候，问题在于加入result的时刻应该在叶子结点，而非叶子结点的下一层判断！叶子结点的左孩子那次递归加入了一次result，右孩子又加入了一次，就会出现重复了。
+
+[剑指 Offer 35. 复杂链表的复制](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2035.%20复杂链表的复制.py) 和138题一样，因为有了random所以不能直接copy，而是要借用hash表，建立旧节点和新节点之间的对应关系。
