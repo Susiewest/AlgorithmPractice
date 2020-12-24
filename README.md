@@ -342,4 +342,4 @@
 
 [剑指 Offer 35. 复杂链表的复制](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2035.%20复杂链表的复制.py) 和138题一样，因为有了random所以不能直接copy，而是要借用hash表，建立旧节点和新节点之间的对应关系。
 
-[剑指 Offer 36. 二叉搜索树与双向链表]()递归函数外定义的全局变量，递归函数内的修改传不到外面。需要加self.
+[剑指 Offer 36. 二叉搜索树与双向链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2036.%20二叉搜索树与双向链表.py) 递归函数外定义的全局变量，递归函数内的修改传不到外面。需要加self.
