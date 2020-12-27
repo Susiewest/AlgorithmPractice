@@ -332,6 +332,8 @@
 
 [剑指 Offer 28. 对称的二叉树](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2028.%20对称的二叉树.py) 折腾我很久的简单题，借此题想要回顾一下，dfs有时只需要在自身的函数递归，有时需要另外定义一个函数，这里另外定义了一个函数，又可以分为递归调用另外定义的函数和递归调用外面的大函数，这两个类型的题想要对比一下。 note： if not (l and r)和if not l and not r
 
+[剑指 Offer 29. 顺时针打印矩阵](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2029.%20顺时针打印矩阵.py) 和54题一样，烦人的一批
+
 [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/剑指%20Offer%2031.%20栈的压入、弹出序列.py) 好久没有做中等题啦！自己独立做出来！开心！
 
 [剑指 Offer 32 - I. 从上到下打印二叉树](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/剑指%20Offer%2032%20-%20I.%20从上到下打印二叉树.py) 直接加入result，bfs，不需要for len
