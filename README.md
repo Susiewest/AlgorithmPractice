@@ -334,7 +334,7 @@
 
 [剑指 Offer 29. 顺时针打印矩阵](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2029.%20顺时针打印矩阵.py) 和54题一样，烦人的一批
 
-[剑指 Offer 30. 包含min函数的栈](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2030.%20包含min函数的栈.py) 和155题相同，但当时没有实现O（1)，这次学习到啦，单调辅助栈 有用的！
+[剑指 Offer 30. 包含min函数的栈](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2030.%20包含min函数的栈.py) 和155题相同，但当时没有实现O（1)，这次学习到啦，单调辅助栈 有用的！剑指33用到了单调递减辅助栈，比较难，放一起学习～
 
 [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/剑指%20Offer%2031.%20栈的压入、弹出序列.py) 好久没有做中等题啦！自己独立做出来！开心！
 
