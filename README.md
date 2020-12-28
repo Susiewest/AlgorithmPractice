@@ -334,6 +334,8 @@
 
 [剑指 Offer 29. 顺时针打印矩阵](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2029.%20顺时针打印矩阵.py) 和54题一样，烦人的一批
 
+[剑指 Offer 30. 包含min函数的栈](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/剑指%20Offer%2030.%20包含min函数的栈.py) 和155题相同，但当时没有实现O（1)，这次学习到啦，单调辅助栈 有用的！
+
 [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/剑指%20Offer%2031.%20栈的压入、弹出序列.py) 好久没有做中等题啦！自己独立做出来！开心！
 
 [剑指 Offer 32 - I. 从上到下打印二叉树](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/剑指%20Offer%2032%20-%20I.%20从上到下打印二叉树.py) 直接加入result，bfs，不需要for len
@@ -349,3 +351,4 @@
 [剑指 Offer 35. 复杂链表的复制](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2035.%20复杂链表的复制.py) 和138题一样，因为有了random所以不能直接copy，而是要借用hash表，建立旧节点和新节点之间的对应关系。
 
 [剑指 Offer 36. 二叉搜索树与双向链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2036.%20二叉搜索树与双向链表.py) 递归函数外定义的全局变量，递归函数内的修改传不到外面。需要加self.
+
