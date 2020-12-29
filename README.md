@@ -352,3 +352,5 @@
 
 [剑指 Offer 36. 二叉搜索树与双向链表](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2036.%20二叉搜索树与双向链表.py) 递归函数外定义的全局变量，递归函数内的修改传不到外面。需要加self.
 
+[剑指 Offer 38. 字符串的排列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/剑指%20Offer%2038.%20字符串的排列.py) 可能存在重复字母的字符串排列，答案不可以重复
+
