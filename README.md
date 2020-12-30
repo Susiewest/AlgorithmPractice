@@ -355,3 +355,5 @@
 [剑指 Offer 38. 字符串的排列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/剑指%20Offer%2038.%20字符串的排列.py) 可能存在重复字母的字符串排列，答案不可以重复
 
 [剑指 Offer 39. 数组中出现次数超过一半的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2039.%20数组中出现次数超过一半的数字.py) 摩尔投票。
+
+[剑指 Offer 40. 最小的k个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2040.%20最小的k个数.py)
