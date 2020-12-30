@@ -356,4 +356,4 @@
 
 [剑指 Offer 39. 数组中出现次数超过一半的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/剑指%20Offer%2039.%20数组中出现次数超过一半的数字.py) 摩尔投票。
 
-[剑指 Offer 40. 最小的k个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2040.%20最小的k个数.py)
+[剑指 Offer 40. 最小的k个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2040.%20最小的k个数.py) 堆排
