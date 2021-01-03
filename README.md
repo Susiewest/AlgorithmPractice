@@ -84,7 +84,7 @@
 
 [62. Unique Paths](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/62.%20Unique%20Paths.py)
 
-[66. Plus One](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/66.%20%E5%8A%A0%E4%B8%80.py)
+[66. Plus One](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/66.%20Plus%20One.py）
 
 [67. 二进制求和](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/67.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C.py)
 
