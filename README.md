@@ -84,7 +84,7 @@
 
 [62. Unique Paths](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/62.%20Unique%20Paths.py)
 
-[66. Plus One](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/66.%20Plus%20One.py) meow
+[66. Plus One](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/66.%20Plus%20One.py)
 
 [67. 二进制求和](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/67.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C.py)
 
@@ -359,3 +359,5 @@
 [剑指 Offer 40. 最小的k个数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2040.%20最小的k个数.py) 堆排
 
 [剑指 Offer 42. 连续子数组的最大和](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2042.%20连续子数组的最大和.py) 和53题一样
+
+[剑指 Offer 45. 把数组排成最小的数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2045.%20把数组排成最小的数.py) 和179差不多，觉得有点难的，可解释性还没仔细弄清楚
