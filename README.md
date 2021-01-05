@@ -361,3 +361,5 @@
 [剑指 Offer 42. 连续子数组的最大和](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2042.%20连续子数组的最大和.py) 和53题一样
 
 [剑指 Offer 45. 把数组排成最小的数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2045.%20把数组排成最小的数.py) 和179差不多，觉得有点难的，可解释性还没仔细弄清楚
+
+[剑指 Offer 46. 把数字翻译成字符串](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2046.%20把数字翻译成字符串.py) 和91题很像但又不一样，值得对比学习
