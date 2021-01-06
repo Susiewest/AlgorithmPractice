@@ -363,3 +363,5 @@
 [剑指 Offer 45. 把数组排成最小的数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/剑指%20Offer%2045.%20把数组排成最小的数.py) 和179差不多，觉得有点难的，可解释性还没仔细弄清楚
 
 [剑指 Offer 46. 把数字翻译成字符串](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2046.%20把数字翻译成字符串.py) 和91题很像但又不一样，值得对比学习
+
+[剑指 Offer 47. 礼物的最大价值](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2047.%20礼物的最大价值.py) 有的时候不需要另外开dp数组，可以直接在原数组的基础上覆盖
