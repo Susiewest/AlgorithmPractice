@@ -365,3 +365,5 @@
 [剑指 Offer 46. 把数字翻译成字符串](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2046.%20把数字翻译成字符串.py) 和91题很像但又不一样，值得对比学习
 
 [剑指 Offer 47. 礼物的最大价值](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2047.%20礼物的最大价值.py) 有的时候不需要另外开dp数组，可以直接在原数组的基础上覆盖
+
+[剑指 Offer 48. 最长不含重复字符的子字符串](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2048.%20最长不含重复字符的子字符串.py) 第三题答案更丰富
