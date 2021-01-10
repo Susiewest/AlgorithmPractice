@@ -1,5 +1,6 @@
 要把none==none的情况保证能够执行while 
 否则若无交点会超时
+160题写法总结更好
 
 # Definition for singly-linked list.
 # class ListNode:
