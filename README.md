@@ -368,4 +368,6 @@
 
 [剑指 Offer 48. 最长不含重复字符的子字符串](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2048.%20最长不含重复字符的子字符串.py) 第三题答案更丰富
 
+[剑指 Offer 49. 丑数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2049.%20丑数.py) 为了避免重复解，比如6=2*3=3*2，不采用if else，而是三个if，这样一个6可以让2和3的指针都++
+
 [剑指 Offer 50. 第一个只出现一次的字符](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2050.%20第一个只出现一次的字符.py)
