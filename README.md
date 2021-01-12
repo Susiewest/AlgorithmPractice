@@ -375,3 +375,5 @@
 [剑指 Offer 52. 两个链表的第一个公共节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2052.%20两个链表的第一个公共节点.py) 和160题一样的
 
 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/剑指%20Offer%2053%20-%20I.%20在排序数组中查找数字.py) 我对二分再次升华！
+
+[剑指 Offer 53 - II. 0～n-1中缺失的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2053%20-%20II.%200～n-1中缺失的数字.py) 和268题一致
