@@ -377,3 +377,5 @@
 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/剑指%20Offer%2053%20-%20I.%20在排序数组中查找数字.py) 我对二分再次升华！
 
 [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2053%20-%20II.%200～n-1中缺失的数字.py) 和268题一致
+
+[剑指 Offer 54. 二叉搜索树的第k大节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2054.%20二叉搜索树的第k大节点.py) 树中维持全局变量，如何某个节点直接return到最高层，如何找到后停止后续搜索
