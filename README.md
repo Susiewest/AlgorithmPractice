@@ -381,3 +381,5 @@
 [剑指 Offer 54. 二叉搜索树的第k大节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2054.%20二叉搜索树的第k大节点.py) 树中维持全局变量，如何某个节点直接return到最高层，如何找到后停止后续搜索
 
 [剑指 Offer 55 - I. 二叉树的深度](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/剑指%20Offer%2055%20-%20I.%20二叉树的深度.py)
+
+[剑指 Offer 55 - II. 平衡二叉树](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2055%20-%20II.%20平衡二叉树.py) 
