@@ -385,3 +385,5 @@
 [剑指 Offer 55 - II. 平衡二叉树](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2055%20-%20II.%20平衡二叉树.py) 
 
 [剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2056%20-%20I.%20数组中数字出现的次数.py) 异或找出只出现一次的“两个”数，思路很赞！
+
+[剑指 Offer 57. 和为s的两个数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2057.%20和为s的两个数字.py) 双指针，没啥难度
