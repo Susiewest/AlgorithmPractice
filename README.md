@@ -90,7 +90,7 @@
 
 [69. Sqrt(x)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/69.%20Sqrt(x).py)
 
-[70. 爬楼梯](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/70.%20%E7%88%AC%E6%A5%BC%E6%A2%AF.py)
+[70. Climbing Stairs](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/70.%20Climbing%20Stairs.py)
 
 [73. Set Matrix Zeroes](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/73.%20Set%20Matrix%20Zeroes.py)
 
