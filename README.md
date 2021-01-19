@@ -389,3 +389,5 @@
 [剑指 Offer 57. 和为s的两个数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2057.%20和为s的两个数字.py) 双指针，没啥难度
 
 [剑指 Offer 57 - II. 和为s的连续正数序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2057%20-%20II.%20和为s的连续正数序列.py) 双指针+滑动窗口 有点容易错的地方，左右指针挪动的时候，求和计数记得随之减加
+
+[剑指 Offer 58 - I. 翻转单词顺序](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2058%20-%20I.%20翻转单词顺序.py) split() 和 split(' ')
