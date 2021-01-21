@@ -393,3 +393,5 @@
 [剑指 Offer 58 - I. 翻转单词顺序](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2058%20-%20I.%20翻转单词顺序.py) split() 和 split(' ')
 
 [剑指 Offer 58 - II. 左旋转字符串](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/剑指%20Offer%2058%20-%20II.%20左旋转字符串.py) python不能修改字符串，局部反转再整体反转不可用，新方法借助了取余 学到了
+
+[剑指 Offer 59 - I. 滑动窗口的最大值](https://github.com/Susiewest/AlgorithmPractice/blob/master/Queue/剑指%20Offer%2059%20-%20I.%20滑动窗口的最大值.py) 单调队列降低求滑动窗口中最大值的时间复杂度，简单题呐，你可一点都不简单
