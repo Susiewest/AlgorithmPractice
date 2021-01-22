@@ -3,6 +3,8 @@
 解答：20比3先进队列，如果3被pop了，证明20早被pop了，取maxvalue根本取不到20
 因此保留当前元素之前的，比当前元素小的元素，根本用不到，因为在pop到当前元素前，较小元素都没意义
 
+发现别人import queue，而我要import collections，然后两个都设置成deque，没意义，只要一个deque即可
+
 class MaxQueue:
 
     def __init__(self):
