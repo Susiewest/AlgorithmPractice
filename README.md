@@ -398,3 +398,7 @@
 
 [剑指 Offer 61. 扑克牌中的顺子](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2061.%20扑克牌中的顺子.py) array题思考出背后的充分条件
 
+[剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2062.%20圆圈中最后剩下的数字.py) 取余方法+数学倒推
+
+[剑指 Offer 63. 股票的最大利润](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2063.%20股票的最大利润.py) 121题
+
