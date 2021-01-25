@@ -17,3 +17,16 @@ class Solution:
 执行用时：2000 ms, 在所有 Python3 提交中击败了33.40%的用户
 内存消耗：18.2 MB, 在所有 Python3 提交中击败了21.84%的用户
 
+https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/javajie-jue-yue-se-fu-huan-wen-ti-gao-su-ni-wei-sh/
+    根据最后的元素倒推它在初始数组中的位置
+    元素在上一轮的实际位置是+m再取余上一轮的数组元素个数
+class Solution:
+    def lastRemaining(self, n: int, m: int) -> int:
+        start = 0
+        for i in range(2,n+1):
+            start = (start+m)%i
+        return start
+执行用时：88 ms, 在所有 Python3 提交中击败了71.46%的用户
+内存消耗：14.8 MB, 在所有 Python3 提交中击败了64.78%的用户
+
+
