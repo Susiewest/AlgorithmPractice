@@ -386,6 +386,8 @@
 
 [剑指 Offer 56 - I. 数组中数字出现的次数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2056%20-%20I.%20数组中数字出现的次数.py) 异或找出只出现一次的“两个”数，思路很赞！
 
+[剑指 Offer 56 - II. 数组中数字出现的次数 II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2056%20-%20II.%20数组中数字出现的次数%20II.py) 数字出现三次，找出落单的数字，按位置计算该位置为1的数字之和是否为3的倍数，若不是，则可根据这位找出落单数字。
+
 [剑指 Offer 57. 和为s的两个数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2057.%20和为s的两个数字.py) 双指针，没啥难度
 
 [剑指 Offer 57 - II. 和为s的连续正数序列](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2057%20-%20II.%20和为s的连续正数序列.py) 双指针+滑动窗口 有点容易错的地方，左右指针挪动的时候，求和计数记得随之减加
