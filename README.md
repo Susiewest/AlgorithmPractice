@@ -405,3 +405,5 @@
 [剑指 Offer 63. 股票的最大利润](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2063.%20股票的最大利润.py) 121题
 
 [剑指 Offer 65. 不用加减乘除做加法](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2065.%20不用加减乘除做加法.py) 很值得做的位运算题目，python中数字以补码形式存储，无变量位数的概念。
+
+[剑指 Offer 66. 构建乘积数组](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2066.%20构建乘积数组.py)
