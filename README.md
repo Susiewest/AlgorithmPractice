@@ -407,3 +407,7 @@
 [剑指 Offer 65. 不用加减乘除做加法](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/剑指%20Offer%2065.%20不用加减乘除做加法.py) 很值得做的位运算题目，python中数字以补码形式存储，无变量位数的概念。
 
 [剑指 Offer 66. 构建乘积数组](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2066.%20构建乘积数组.py)
+
+[剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2068%20-%20I.%20二叉搜索树的最近公共祖先.py)
+
+[剑指 Offer 68 - II. 二叉树的最近公共祖先](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2068%20-%20II.%20二叉树的最近公共祖先.py)
