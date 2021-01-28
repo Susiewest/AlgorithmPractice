@@ -410,4 +410,4 @@
 
 [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2068%20-%20I.%20二叉搜索树的最近公共祖先.py)
 
-[剑指 Offer 68 - II. 二叉树的最近公共祖先](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2068%20-%20II.%20二叉树的最近公共祖先.py)
+[剑指 Offer 68 - II. 二叉树的最近公共祖先](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/剑指%20Offer%2068%20-%20II.%20二叉树的最近公共祖先.py) 分析可能的三种情况，后序遍历，先判断左右再判断root，每层return，如果左右找到的都不为空，则return root，如果一侧不为空，return该侧的结果。会在上面的某层做矫正。
