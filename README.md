@@ -398,6 +398,8 @@
 
 [剑指 Offer 59 - I. 滑动窗口的最大值](https://github.com/Susiewest/AlgorithmPractice/blob/master/Queue/剑指%20Offer%2059%20-%20I.%20滑动窗口的最大值.py) 单调队列降低求滑动窗口中最大值的时间复杂度，简单题呐，你可一点都不简单
 
+[剑指 Offer 60. n个骰子的点数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/剑指%20Offer%2060.%20n个骰子的点数.py) 二维数组的动态规划，f(n,s)表示扔第n个骰子的时候，和为s的出现次数？
+
 [剑指 Offer 61. 扑克牌中的顺子](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2061.%20扑克牌中的顺子.py) array题思考出背后的充分条件
 
 [剑指 Offer 62. 圆圈中最后剩下的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2062.%20圆圈中最后剩下的数字.py) 取余方法+数学倒推
