@@ -80,7 +80,7 @@
 
 [56. Merge Intervals](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/56.%20Merge%20Intervals.py)不重叠区间排序
 
-[58. 最后一个单词的长度](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/58.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6.py)
+[58. Length of Last Word](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/58.%20Length%20of%20Last%20Word.py)
 
 [62. Unique Paths](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/62.%20Unique%20Paths.py)
 
