@@ -214,6 +214,8 @@
 
 [215. Kth Largest Element in an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) 只需分治一侧 称之为减治，减而治之
 
+[215. Kth Largest Element in an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) 用堆排做了下，维护小根堆，保留最大的k个数，堆顶即第k大的数。
+
 [217. Contains Duplicate](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/217.%20Contains%20Duplicate.py)
 
 [219. Contains Duplicate II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/219.%20Contains%20Duplicate%20II.py)
