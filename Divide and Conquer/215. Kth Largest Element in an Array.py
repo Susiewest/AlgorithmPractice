@@ -33,6 +33,34 @@ class Solution:
 执行用时：44 ms, 在所有 Python3 提交中击败了84.08%的用户
 内存消耗：13.9 MB, 在所有 Python3 提交中击败了81.85%的用户
 
-
-
+#这个把快排写完整的方法会超时捏。。
+import random
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        def partition(nums,left, right):
+            #本来想传参只传局部的nums[left,right]，不用指定left，right
+            #但是想到这样怎么才能知道现在固定的元素下标是len-k呀
+            random_num = randint(left, right)
+            nums[left], nums[random_num] = nums[random_num], nums[left]
+            pivot = nums[left]
+            pivot_index = left
+            left+=1
+            while left<right:
+                while left<right and nums[left]<=pivot: left+=1
+                nums[right], nums[left] = nums[left],nums[right]
+                while left<right and nums[right]>pivot: right-=1
+                nums[right], nums[left] = nums[left],nums[right]
+            nums[left], nums[pivot_index] = nums[pivot_index], nums[left]
+            return left
+        index = -1
+        left, right = 0, len(nums)-1
+        target = len(nums)-k
+        while index!=target:
+            index = partition(nums,left,right)
+            if index==target:
+                return nums[index]
+            elif index>target:
+                right = index-1
+            else:
+                left = index+1
         
