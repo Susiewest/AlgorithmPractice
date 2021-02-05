@@ -128,6 +128,6 @@ class Solution:
 执行用时：36 ms, 在所有 Python3 提交中击败了96.13%的用户
 内存消耗：15.3 MB, 在所有 Python3 提交中击败了42.12%的用户
 
-快排的一点总结：partition的写法，要么for循环遍历一遍，一个指针保留替换位置，一个指针工作，遇到小的就送到替换位置去（和替换位置互换）
+快排的一点总结：partition的写法，要么for循环遍历一遍，一个指针保留替换位置，一个指针工作，遇到小的就送到替换位置去（和替换位置互换）https://www.runoob.com/python3/python-quicksort.html
 要么就两个while，从right--开始，因为left指着的地方要被比pivot小的顶掉，才能保证left位置元素的正确性，不然按我上面那么疯狂互换，额 好像也可以，关键在于不能像我那样从left/left+1做起。。。
 写for的时候要互换，因为要把前面不小于pivot的换到后面来，写while的时候可以互换，也可以不互换，单方面覆盖left/right位置，效果差不多。关键是要从right--开始。
