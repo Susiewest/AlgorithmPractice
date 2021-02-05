@@ -64,3 +64,68 @@ class Solution:
             else:
                 left = index+1
         
+改了快排partition对换部分可以了
+import random
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        def partition(nums,left, right):
+            #本来想传参只传局部的nums[left,right]，不用指定left，right
+            #但是想到这样怎么才能知道现在固定的元素下标是len-k呀
+            random_num = random.randint(left, right)
+            nums[left], nums[random_num] = nums[random_num], nums[left]
+            pivot = nums[left]
+            index = left
+            for i in range(left+1,right+1):
+                if nums[i]<pivot:
+                    index+=1
+                    nums[index], nums[i] = nums[i], nums[index]
+            nums[left], nums[index] = nums[index], nums[left]
+            return index
+        index = -1
+        left, right = 0, len(nums)-1
+        target = len(nums)-k
+        while index!=target:
+            index = partition(nums,left,right)
+            if index==target:
+                return nums[index]
+            elif index>target:
+                right = index-1
+            else:
+                left = index+1
+执行用时：48 ms, 在所有 Python3 提交中击败了65.61%的用户
+内存消耗：15.3 MB, 在所有 Python3 提交中击败了34.65%的用户
+我的疑惑：1. while的写法和if的写法都要遍历整个num，为什么while会超时 if不会，难道说交换步骤很费时间？
+2. 找到left==right停止循环，此时把pivot和停止位置元素对换，如何保证停止的位置小于pivot呢？
+解答：原来确实是上面写的快排有些问题，按下面写可以通过
+import random
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        def partition(nums,left, right):
+            #本来想传参只传局部的nums[left,right]，不用指定left，right
+            #但是想到这样怎么才能知道现在固定的元素下标是len-k呀
+            random_num = randint(left, right)
+            nums[left], nums[random_num] = nums[random_num], nums[left]
+            pivot = nums[left]
+            pivot_index = left
+            while left<right:
+                while left<right and nums[right]>pivot: right-=1
+                nums[left] = nums[right]
+                while left<right and nums[left]<=pivot: left+=1
+                nums[right] = nums[left]
+            nums[left] = pivot
+            return left
+        index = -1
+        left, right = 0, len(nums)-1
+        target = len(nums)-k
+        while index!=target:
+            index = partition(nums,left,right)
+            if index==target:
+                return nums[index]
+            elif index>target:
+                right = index-1
+            else:
+                left = index+1
+执行用时：36 ms, 在所有 Python3 提交中击败了96.13%的用户
+内存消耗：15.3 MB, 在所有 Python3 提交中击败了42.12%的用户
+
+
