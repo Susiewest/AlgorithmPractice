@@ -284,6 +284,8 @@
 
 [412. Fizz Buzz](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/412.%20Fizz%20Buzz.py)
 
+[450. Delete Node in a BST](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/450.%20Delete%20Node%20in%20a%20BST.py) 删除bst中的节点
+
 [454. 4Sum II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/454.%204Sum%20II.py)
 
 剑指offer
