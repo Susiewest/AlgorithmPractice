@@ -88,7 +88,9 @@
 
 [67. 二进制求和](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/67.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C.py)
 
-[69. Sqrt(x)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/69.%20Sqrt(x).py)
+[69. Sqrt(x)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/69.%20Sqrt(x).py) 数学方法，牛顿法
+
+[69. Sqrt(x)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/69.%20Sqrt(x).py) 二分法，要避免死循环，和162题对比学习
 
 [70. Climbing Stairs](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/70.%20Climbing%20Stairs.py)
 
