@@ -164,6 +164,8 @@
 
 [143. Reorder List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/143.%20Reorder%20List.py) 嘿嘿，自己想的思路！自己写的代码！自己解决的存在cycle的bug！加油加油加油！！！只要坚持就有正反馈！！！ 2020/11/12早上
 
+[144. Binary Tree Preorder Traversal](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/144.%20Binary%20Tree%20Preorder%20Traversal.py) 先序遍历 迭代，非递归
+
 [146. LRU Cache](https://github.com/Susiewest/AlgorithmPractice/blob/master/Design/146.%20LRU%20Cache.py)
 
 [148. Sort List](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/148.%20Sort%20List.py) o(logn)时间 o(1)空间的链表排序 while length1>0不超时，while length就超时？？？疑惑
