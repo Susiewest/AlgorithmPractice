@@ -1,3 +1,4 @@
+后序迭代遍历，
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -25,4 +26,26 @@ class Solution:
 
 执行用时：40 ms, 在所有 Python3 提交中击败了57.75%的用户
 内存消耗：14.9 MB, 在所有 Python3 提交中击败了5.41%的用户
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def postorderTraversal(self, root: TreeNode) -> List[int]:
+        result = []
+        stack = []
+        prev = None
+        while root or stack:
+            while root:
+                result.append(root.val)
+                stack.append(root)
+                root = root.right
+            root = stack.pop()
+            root = root.left
+        return result[::-1]
+执行用时：32 ms, 在所有 Python3 提交中击败了94.41%的用户
+内存消耗：14.9 MB, 在所有 Python3 提交中击败了15.31%的用户
 
