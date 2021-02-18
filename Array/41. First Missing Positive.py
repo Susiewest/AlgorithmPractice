@@ -7,6 +7,7 @@ class Solution:
         for i in range(len(nums)):
             #有坑 测试用例[7,8,9,10,11] 如果数字放不到位置上，不限制nums[i]的范围小于len，会导致越界
             while 0<nums[i]<=len(nums) and nums[nums[i]-1]!=nums[i]:
+                # 关于先后顺序颠倒赋值带来的错误 理解&思考 https://iyuge2.top/2020/python-replacement/
                 nums[nums[i]-1], nums[i] = nums[i], nums[nums[i]-1]
         for i in range(len(nums)):
             if nums[i]!=i+1: #如果数字放不到位置上
