@@ -64,6 +64,8 @@
 
 [39. Combination Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/39.%20Combination%20Sum.py)有点回溯的东西在里面
 
+[41. First Missing Positive](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/41.%20First%20Missing%20Positive.py) 又是一道鸽巢原理！
+
 [46. Permutations](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/46.%20Permutations.py) 回溯 重要 向答主提问了
 
 [48. Rotate Image](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/48.%20Rotate%20Image.py)
