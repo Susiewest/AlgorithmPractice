@@ -176,6 +176,8 @@
 
 [150. Evaluate Reverse Polish Notation](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/150.%20Evaluate%20Reverse%20Polish%20Notation.py)
 
+[151. Reverse Words in a String](https://github.com/Susiewest/AlgorithmPractice/blob/master/Queue/151.%20Reverse%20Words%20in%20a%20String.py) 待更新
+
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack.py)
 
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists.py)
