@@ -9,3 +9,19 @@ class Solution:
 内存消耗：14.9 MB, 在所有 Python3 提交中击败了58.84%的用户
 
 双端队列法待补充
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        start, end = 0, len(s)
+        while s[start]==' ':
+            start+=1
+        while s[end]==' ':
+            end-=1
+        result = collections.deque()
+        word = []
+        while(start<=end):
+            if s[start]!=' ':
+                word.append(s[start])
+            elif s[start]==' ':
+                result.appendleft(''.join(word))
+            start+=1
+        return ' '.join(result)
