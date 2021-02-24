@@ -37,3 +37,27 @@ class Solution:
 执行用时：56 ms, 在所有 Python3 提交中击败了13.48%的用户
 内存消耗：15.1 MB, 在所有 Python3 提交中击败了20.35%的用户
 
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        result = ''
+        right = len(s)-1
+        while s[right]==' ' and right>=0:
+            right-=1
+        left = right
+        while left>=0:  #无法正确加入第一个
+            if s[left]==' ':
+                result += s[left+1:right+1]+' '
+                right = left
+                while right>=0 and s[right]==' ':
+                    right -= 1
+                left = right
+            else:
+                left -= 1
+        return result+s[:right+1] if s[0]!=' ' else result[:-1]
+        #result[:-1] 取第一个到倒数第二个 只不取最后一个,因为-1就是最后一个 根据左闭右开 取不到 所以就是取第一个到倒数第二个 
+        #也就是说如果首字母不为空，那么就还有一个单词没加入result，如果为空，那么result就多了一个空格，最后一个空格不输出
+        
+执行用时：44 ms, 在所有 Python3 提交中击败了51.49%的用户
+内存消耗：15.1 MB, 在所有 Python3 提交中击败了8.34%的用户
+
+Attention!!!!!!! if s[0] 和if s[0]!=' '不一样？？？！！！
