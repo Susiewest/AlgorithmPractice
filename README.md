@@ -176,7 +176,7 @@
 
 [150. Evaluate Reverse Polish Notation](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/150.%20Evaluate%20Reverse%20Polish%20Notation.py)
 
-[151. Reverse Words in a String](https://github.com/Susiewest/AlgorithmPractice/blob/master/Queue/151.%20Reverse%20Words%20in%20a%20String.py) 双端队列
+[151. Reverse Words in a String](https://github.com/Susiewest/AlgorithmPractice/blob/master/Queue/151.%20Reverse%20Words%20in%20a%20String.py) 双端队列，Attention!!!!!!! if s[0] 和if s[0]!=' '不一样？？？！！！
 
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack.py)
 
