@@ -2,6 +2,8 @@
 
 [1. Two Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
+[1. Two Sum (Python)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.py)
+
 [2. Add Two Numbers](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/2.%20Add%20Two%20Numbers.py)
 
 [3. Longest Substring Without Repeating Characters](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)
