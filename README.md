@@ -1,8 +1,8 @@
 # AlgorithmPractice
 
-[1. Two Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
+[1. Two Sum (C++ version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
-[1. Two Sum (Python)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.py)
+[1. Two Sum (Python version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.py)
 
 [2. Add Two Numbers](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/2.%20Add%20Two%20Numbers.py)
 
