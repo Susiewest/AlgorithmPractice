@@ -268,7 +268,7 @@
 
 [322. Coin Change](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/322.%20Coin%20Change.py) 硬币找零问题，做法非常之丰富，只实现了dp办法，其他的还要再看看，动态规划注意：1. dp[0]可以不赋予意义，从实际意义看从dp1开始会比较方便理解 2. 更新的越界限制条件要仔细思考 3. 取更小/更大值的时候注意要跟自身初始值也要比较
 
-[324. Wiggle Sort II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/324.%20Wiggle%20Sort%20II.py) #¥%¥%&*（&脏话 写O(n)时间O(1)空间写的想吐，跑出来时间比O(NLOGN）还要久很多 无语 这个题学会了array切片/荷兰旗/快速选择和快速排序的区别
+[324. Wiggle Sort II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/324.%20Wiggle%20Sort%20II.py) #¥%¥!%&*（&脏话 写O(n)时间O(1)空间写的想吐，跑出来时间比O(NLOGN）还要久很多 无语 这个题学会了array切片/荷兰旗/快速选择和快速排序的区别
 
 [326. Power of Three](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/326.%20Power%20of%20Three.py)
 
