@@ -110,6 +110,8 @@
 
 [88. Merge Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/88.%20Merge%20Sorter%20Array.py)
 
+[89. Gray Code](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/89.%20Gray%20Code.py) 
+
 [91. Decode Ways](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/91.%20Decode%20Ways.py)
 
 [94. Binary Tree Inorder Traversal](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/94.%20Binary%20Tree%20Inorder%20Traversal.py)
