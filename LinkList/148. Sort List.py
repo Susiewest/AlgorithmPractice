@@ -1,4 +1,7 @@
 空间复杂度o(logn) 不符合o（1）
+归并，涉及递归，先快慢指针找到中点，再断开链，对两段递归，再合并当前两段
+递归直到只剩下一个结点截止
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
