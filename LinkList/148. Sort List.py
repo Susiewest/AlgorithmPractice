@@ -90,6 +90,7 @@ class Solution:
         return dummy.next
 
             
+O(1)空间复杂度 即避免递归 
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
