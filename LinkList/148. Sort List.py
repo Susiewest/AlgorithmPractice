@@ -91,6 +91,7 @@ class Solution:
 
             
 O(1)空间复杂度 即避免递归 
+借助interval 分别用interval=1开始到interval=length终止
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
