@@ -298,7 +298,7 @@
 
 [412. Fizz Buzz](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/412.%20Fizz%20Buzz.py)
 
-[416. Partition Equal Subset Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum.py) 感觉还可以优化
+[416. Partition Equal Subset Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum.py) 二维dp及优化，值得反复康康，思考什么样的题用dp来做
 
 [450. Delete Node in a BST](https://github.com/Susiewest/AlgorithmPractice/blob/master/Tree/450.%20Delete%20Node%20in%20a%20BST.py) 删除bst中的节点
 
