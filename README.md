@@ -262,6 +262,8 @@
 
 [279. Perfect Squares](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/279.%20Perfect%20Squares.py) 感觉有点难，可以用数学的办法解决，没仔细看，但dp和bfs的方法都是我想不到的，很妙
 
+[283. Move Zeroes](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/283.%20Move%20Zeroes.py)
+
 [287. Find the Duplicate Number](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/287.%20Find%20the%20Duplicate%20Number.py) 值域二分而非下标二分，新思路，又见鸽巢原理
 
 [289. Game of Life](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/289.%20Game%20of%20Life.py) 卷积 牛批
