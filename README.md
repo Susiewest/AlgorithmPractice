@@ -1,5 +1,5 @@
 # AlgorithmPractice
-
+逆序对 最小编辑距离 接雨水 
 [1. Two Sum (C++ version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
 [1. Two Sum (Python version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.py)
