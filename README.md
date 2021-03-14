@@ -65,7 +65,7 @@
 
 [38. Count and Say](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/38.%20Count%20and%20Say.py)
 
-[39. Combination Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/39.%20Combination%20Sum.py)有点回溯的东西在里面
+[39. Combination Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/39.%20Combination%20Sum.py) 有点回溯的东西在里面
 
 [41. First Missing Positive](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/41.%20First%20Missing%20Positive.py) 又是一道鸽巢原理！
 
@@ -73,7 +73,7 @@
 
 [48. Rotate Image](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/48.%20Rotate%20Image.py)
 
-[49. Group Anagrams](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/49.%20Group%20Anagrams.py)还有些疑问
+[49. Group Anagrams](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/49.%20Group%20Anagrams.py) 还有些疑问
 
 [50. Pow(x, n)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/50.%20Pow(x,%20n).py) 官方题解还有更好的方法
 
