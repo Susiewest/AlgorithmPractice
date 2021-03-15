@@ -1,5 +1,5 @@
 # AlgorithmPractice
-逆序对 最小编辑距离 接雨水 正则表达式
+逆序对 最小编辑距离 格雷编码 接雨水 正则表达式
 
 [1. Two Sum (C++ version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
