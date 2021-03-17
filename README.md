@@ -69,6 +69,8 @@
 
 [41. First Missing Positive](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/41.%20First%20Missing%20Positive.py) 又是一道鸽巢原理！
 
+[42. Trapping Rain Water](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/42.%20Trapping%20Rain%20Water.py) 接雨水，hard题
+
 [46. Permutations](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/46.%20Permutations.py) 回溯 重要 向答主提问了
 
 [48. Rotate Image](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/48.%20Rotate%20Image.py)
