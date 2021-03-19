@@ -56,3 +56,20 @@ class Solution:
 执行用时：64 ms, 在所有 Python3 提交中击败了89.80%的用户
 内存消耗：14.1 MB, 在所有 Python3 提交中击败了33.94%的用户
 
+class Solution:
+    def increasingTriplet(self, nums: List[int]) -> bool:
+        first, second = float('inf'), float('inf')
+        for i in range(len(nums)):
+            #必须将=first的数字不要赋值给second
+            if nums[i]<=first:
+                first = nums[i]
+            elif nums[i]<second:
+                second = nums[i]
+            elif nums[i]>second:
+                return True
+        return False
+    
+执行用时：32 ms, 在所有 Python3 提交中击败了97.27%的用户
+内存消耗：14.9 MB, 在所有 Python3 提交中击败了91.51%的用户
+
+
