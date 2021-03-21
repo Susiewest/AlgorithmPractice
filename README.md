@@ -301,6 +301,8 @@
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
+[410. Split Array Largest Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum.py) 美团笔试题 喝奶茶问题，将数据分为m个子数组，使得各自和的最大值最小（即奶茶喝完最晚的人最早）
+
 [412. Fizz Buzz](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/412.%20Fizz%20Buzz.py)
 
 [416. Partition Equal Subset Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum.py) 二维dp及优化，值得反复康康，思考什么样的题用dp来做
