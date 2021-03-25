@@ -317,6 +317,8 @@
 
 [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero.py) 线路规划，携程笔试题
 
+[1796. 字符串中第二大的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/1796.%20字符串中第二大的数字.py)
+
 剑指offer
 
 [剑指 Offer 03. 数组中重复的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/剑指%20Offer%2003.%20数组中重复的数字.py) 鸽巢原理，吊
