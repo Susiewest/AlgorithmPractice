@@ -14,6 +14,10 @@ wy笔试
 3. 优惠券满减门限T，最少花多少钱 
 4. 树找存在节点大于x的路径，保存在数组中，不用构造树，因为是完全二叉，空节点在list中为null，可以直接下标*2+1，下标*2+2确定左右孩子节点。 
 
+面试题
+
+[有向图中所有的环路径](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/有向图中所有的环路径.py) 
+
 [1. Two Sum (C++ version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
 [1. Two Sum (Python version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.py)
