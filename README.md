@@ -426,6 +426,8 @@ wy笔试
 
 [剑指 Offer 50. 第一个只出现一次的字符](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/剑指%20Offer%2050.%20第一个只出现一次的字符.py)
 
+[剑指 Offer 51. 数组中的逆序对](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/剑指%20Offer%2051.%20数组中的逆序对.py) 归并方法
+
 [剑指 Offer 52. 两个链表的第一个公共节点](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/剑指%20Offer%2052.%20两个链表的第一个公共节点.py) 和160题一样的
 
 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/剑指%20Offer%2053%20-%20I.%20在排序数组中查找数字.py) 我对二分再次升华！
