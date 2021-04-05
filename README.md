@@ -322,6 +322,8 @@
 
 [991. Broken Calculator](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/991.%20Broken%20Calculator.py) 只能x2， -1操作的计算器
 
+[1143. Longest Common Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/1143.%20Longest%20Common%20Subsequence.py)最长公共子序列 动态规划，类似编辑距离
+
 [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero.py) 线路规划，携程笔试题
 
 [1796. 字符串中第二大的数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/1796.%20字符串中第二大的数字.py)
