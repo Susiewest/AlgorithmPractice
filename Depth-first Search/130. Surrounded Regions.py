@@ -1,4 +1,6 @@
 #感觉和200题有点像诶
+先从四条边出发，有O的都改成新字符B，dfs覆盖
+这样最后剩下的O都改成X，B恢复成O
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
