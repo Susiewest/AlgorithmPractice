@@ -234,6 +234,8 @@
 
 [210. Course Schedule II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/210.%20Course%20Schedule%20II.py) 可以dfs构建逆邻接表做，只实现了拓扑排序，拓扑做起来更方便
 
+[213. House Robber II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/213.%20House%20Robber%20II.py) 打家劫舍2，环形的房子，开头结尾不能一起偷，干脆定义一个dp函数，每次避开开头/避开结尾偷，选二者最大的
+
 [215. Kth Largest Element in an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Divide%20and%20Conquer/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) 只需分治一侧 称之为减治，减而治之
 
 [215. Kth Largest Element in an Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Sort/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) 用堆排做了下，维护小根堆，保留最大的k个数，堆顶即第k大的数。
