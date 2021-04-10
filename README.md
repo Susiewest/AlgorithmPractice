@@ -1,5 +1,5 @@
 # AlgorithmPractice
-逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！！哎 我好累
+逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！！哎
 
 
 [有向图中所有的环路径](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/有向图中所有的环路径.py) 
