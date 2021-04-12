@@ -15,3 +15,16 @@ class Solution:
 
 执行用时：48 ms, 在所有 Python3 提交中击败了33.63%的用户
 内存消耗：13.5 MB, 在所有 Python3 提交中击败了33.24%的用户
+
+class Solution:
+    def cuttingRope(self, n: int) -> int:
+        if n<=3:
+            return n-1
+        a = n//3
+        b = n%3
+        if b==0:
+            return int(math.pow(3,a))
+        elif b==1:
+            return int(math.pow(3,a-1)*4)
+        else:
+            return int(math.pow(3,a)*2)
