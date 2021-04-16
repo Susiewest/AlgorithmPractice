@@ -1,6 +1,8 @@
 # AlgorithmPractice
 逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！！哎
 
+[ms二叉搜索树找中位数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/ms二叉搜索树找中位数.py)
+
 [ms中文转数字](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/ms中文转数字.py)
 
 [有向图中所有的环路径](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/有向图中所有的环路径.py) 
