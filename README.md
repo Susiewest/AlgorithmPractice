@@ -311,7 +311,7 @@
 
 [409. Longest Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/409.%20Longest%20Palindrome.py)
 
-[410. Split Array Largest Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum.py) 美团笔试题 喝奶茶问题，将数据分为m个子数组，使得各自和的最大值最小（即奶茶喝完最晚的人最早）
+[410. Split Array Largest Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum.py) 美团笔试题 喝奶茶问题，将数据分为m个子数组，使得各自和的最大值最小（即奶茶喝完最晚的人最早），二分找合适的sum
 
 [412. Fizz Buzz](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/412.%20Fizz%20Buzz.py)
 
