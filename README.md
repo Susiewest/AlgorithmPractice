@@ -13,7 +13,7 @@
 
 [2. Add Two Numbers](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/2.%20Add%20Two%20Numbers.py)
 
-[3. Longest Substring Without Repeating Characters](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)
+[3. Longest Substring Without Repeating Characters](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py) 双指针+hash记录每个字母出现位置
 
 [5. Longest Palindromic Substring](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/5.%20Longest%20Palindromic%20Substring.py)
 
