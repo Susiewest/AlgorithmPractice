@@ -31,7 +31,7 @@
 
 [13. Roman to Integer](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/13.%20Roman%20to%20Integer.py)
 
-[14. Longest Common Prefix](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/14.%20Longest%20Common%20Prefix.py)
+[14. Longest Common Prefix](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/14.%20Longest%20Common%20Prefix.py) 最长公共前缀，纵向判断
 
 [15. 3Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/15.%203Sum.py)
 
