@@ -1,5 +1,5 @@
 # AlgorithmPractice
-逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！哎，我一点都不坚强呜呜呜quq
+逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！哎，我一点都不坚强呜呜quq
 
 [ms二叉搜索树找中位数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/ms二叉搜索树找中位数.py)
 
