@@ -1,4 +1,5 @@
-做个人吧
+做个人吧 面试出hard
+关键在于buy2的初始化，一开始初始化为0会导致错误，因为允许就买卖一次？
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
