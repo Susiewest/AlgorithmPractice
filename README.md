@@ -161,7 +161,7 @@
 
 [122. Best Time to Buy and Sell Stock II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Greedy/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.py)
 
-[123. 买卖股票的最佳时机 III](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.py)
+[123. Best Time to Buy and Sell Stock III](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.py)
 
 [125. Valid Palindrome](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/125.%20Valid%20Palindrome.py)
 
