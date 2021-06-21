@@ -1,5 +1,6 @@
 # AlgorithmPractice
-逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！！我hin坚强！！！我是棒棒的小汪汪！！！加油！！！要开始刷题！！！
+逆序对 最小编辑距离 格雷编码 接雨水 正则表达式 图——一生之敌！！我是棒棒的小汪汪！！！加油！！！
+6月复健治疗中...
 
 [ms二叉搜索树找中位数](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/ms二叉搜索树找中位数.py)
 
@@ -60,6 +61,8 @@
 [28. Implement strStr()](https://github.com/Susiewest/AlgorithmPractice/blob/master/String/28.%20Implement%20strStr().py)
 
 [29. Divide Two Integers](https://github.com/Susiewest/AlgorithmPractice/blob/master/Bit%20Manipulation/29.%20Divide%20Two%20Integers.py)
+
+[31. Next Permutation](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/31.%20Next%20Permutation.py) 找出全排列中下一个更大的排列，不需要用回溯，只是简单的数组遍历+双指针逆序即可，但需要认真分析遍历是要找什么样的数字互换
 
 [33. Search in Rotated Sorted Array](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array.py)对二分法有了比较深刻的认识
 
