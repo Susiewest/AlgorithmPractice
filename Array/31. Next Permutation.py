@@ -1,10 +1,15 @@
+将左边的一个较小元素和右边的一个较大元素互换，较小元素要尽可能的靠右，较大元素尽可能的小
+交换完成后，较大元素右边要调整顺序，调为最小，即数字按升序排列
+这样可以保证新排列在大于原排列的情况下，变大幅度尽可能小
+经过分析，交换后，较大元素右侧为降序排列，直接双指针反转即可
+
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """
         less = len(nums)-2
-        # 从右往左找到第一个非升序的 如4，7，6，5，3 找到4
+        # 从右往左找到第一个小于右侧元素的的 如4，7，6，5，3 找到4
         # less>=0 不写会越界，而且也无法正确执行less<0的情况（nums直接是最大）
         while less>=0 and nums[less]>=nums[less+1]:  #**
             less -= 1
