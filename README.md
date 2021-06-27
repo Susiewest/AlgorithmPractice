@@ -82,6 +82,8 @@
 
 [46. Permutations](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/46.%20Permutations.py) 回溯 重要 向答主提问了
 
+[47. Permutations II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/47.%20Permutations%20II.py)
+
 [48. Rotate Image](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/48.%20Rotate%20Image.py)
 
 [49. Group Anagrams](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/49.%20Group%20Anagrams.py) 还有些疑问
