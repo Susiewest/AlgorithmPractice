@@ -28,3 +28,22 @@ class Solution:
 44 ms, 在所有 Python3 提交中击败了66.47%的用户
 内存消耗：
 13.7 MB, 在所有 Python3 提交中击败了5.14%的用户'''
+
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        self.result = []
+        def backtrack(nums,temp):
+            # if len(temp)==len(nums): 不行啊 不能这么写，nums一直在变的
+            if not nums:
+                self.result.append(temp)
+                # return
+            for i in range(len(nums)):
+                backtrack(nums[:i]+nums[i+1:],temp+[nums[i]])
+        backtrack(nums, [])
+        return self.result
+执行用时：48 ms, 在所有 Python3 提交中击败了30.65%的用户
+内存消耗：15.3 MB, 在所有 Python3 提交中击败了5.13%的用户
+
+# 写了return
+执行用时：48 ms, 在所有 Python3 提交中击败了30.65%的用户
+内存消耗：15 MB, 在所有 Python3 提交中击败了51.28%的用户
