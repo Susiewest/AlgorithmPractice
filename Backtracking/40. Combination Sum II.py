@@ -2,6 +2,8 @@
 有重复数字——排序+设置used
 有重复数字+不能包含重复结果——设置used+限制元素选择的起始位置
 
+为什么不用bfs？以target为根，下层孩子为target-每个数字。这样的话似乎只能判断是否存在/在第几层存在，不能保存所有可能的结果。
+
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         candidates.sort()
