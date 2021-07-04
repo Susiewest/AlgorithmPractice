@@ -76,6 +76,8 @@
 
 [39. Combination Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/39.%20Combination%20Sum.py) 有点回溯的东西在里面
 
+[40. Combination Sum II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/40.%20Combination%20Sum%20II.py) 哼！回溯！不过如此！20210704 11.33
+
 [41. First Missing Positive](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/41.%20First%20Missing%20Positive.py) 又是一道鸽巢原理！
 
 [42. Trapping Rain Water](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/42.%20Trapping%20Rain%20Water.py) 接雨水，hard题
