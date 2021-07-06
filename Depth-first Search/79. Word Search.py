@@ -119,3 +119,37 @@ class Solution:
 188 ms, 在所有 Python3 提交中击败了92.09%的用户
 内存消耗：
 14.7 MB, 在所有 Python3 提交中击败了25.03%的用户'''
+
+
+2021-07-06
+通过了但方法很笨，因为dfs非要判断后面一个位置而非当前位置，导致第一个位置元素visited在主函数中单独又写了一遍。很冗余。
+需要改dfs为判断当前元素重写一下。
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        directions = [(1,0), (-1,0), (0,1), (0,-1)]
+        row, col = len(board), len(board[0])
+        visited = [[0]*col for _ in range(row)]
+        def dfs(board, visited, pos, x, y):
+            if pos==len(word):
+                return True
+            for direction in directions:
+                new_x = x + direction[0]
+                new_y = y + direction[1]
+                if 0<=new_x<row and 0<=new_y<col and not visited[new_x][new_y] and board[new_x][new_y]==word[pos]:
+                    visited[new_x][new_y] = 1
+                    if dfs(board, visited, pos+1, new_x, new_y):
+                        return True
+                    visited[new_x][new_y] = 0
+            return False
+        for i in range(row):
+            for j in range(col):
+                if board[i][j]==word[0]:
+                    visited[i][j] = 1
+                    if dfs(board, visited, 1, i, j):
+                        return True
+                    visited[i][j] = 0
+        return False
+
+执行用时：3380 ms, 在所有 Python3 提交中击败了67.66%的用户
+内存消耗：15.2 MB, 在所有 Python3 提交中击败了7.51%的用户
+
