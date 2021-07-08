@@ -59,3 +59,35 @@ class Solution:
         #写return dfs是不对的，[0]的时候还是不会将处理好的root返回 所以分开写
         dfs(root)
         return root
+
+    
+    
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+"""
+
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        def dfs(root):
+            if root.left is None or root.right is None:
+                return
+            root.left.next = root.right
+            if root.next:
+                root.right.next = root.next.left
+            dfs(root.left)
+            dfs(root.right)
+            return root
+        if root is None:
+            return None
+        root.next = None
+        dfs(root)
+        return root
+    
+执行用时：60 ms, 在所有 Python3 提交中击败了98.30%的用户
+内存消耗：16.6 MB, 在所有 Python3 提交中击败了20.53%的用户
