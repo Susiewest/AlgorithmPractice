@@ -42,3 +42,31 @@ print(result)
 '''有人让我思考这个题在10wx10w格子的极端情况 dfs和bfs实现的差别 我感觉是bfs在空间复杂度上更优
 但是对方说二者的时间空间应该都是一致的 我持保留态度 
 说dfs是递归 递归的本质是栈 如果在10wx10w全是1的情况 会对所有格子都调用一次递归 都占用栈 而bfs不会'''
+
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        directions = [(1,0),(-1,0),(0,1),(0,-1)]
+        def dfs(grid, x, y, row, col):
+            grid[x][y] = '0'
+            for direction in directions:
+                new_x = x + direction[0]
+                new_y = y + direction[1]
+                if 0<=new_x<row and 0<=new_y<col:
+                    if grid[new_x][new_y]=='1':
+                        dfs(grid,new_x,new_y,row,col)
+        if not grid:
+            return []
+        row = len(grid)
+        col = len(grid[0])
+        count = 0
+        for i in range(row):
+            for j in range(col):
+                if grid[i][j]=='1':
+                    count+=1
+                    dfs(grid, i, j, row, col)
+        return count
+
+                
+执行用时：76 ms, 在所有 Python3 提交中击败了72.14%的用户
+内存消耗：19 MB, 在所有 Python3 提交中击败了24.49%的用户
+
