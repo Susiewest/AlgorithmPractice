@@ -90,3 +90,6 @@ class Solution:
                 else:
                     dp[i][j] = dp[i-1][j]
         return dp[-1][-1]
+    
+执行用时：1604 ms, 在所有 Python3 提交中击败了56.77%的用户
+内存消耗：30 MB, 在所有 Python3 提交中击败了21.80%的用户
