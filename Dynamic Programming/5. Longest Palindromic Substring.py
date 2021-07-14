@@ -71,3 +71,27 @@ class Solution:
 1024 ms, 在所有 Python3 提交中击败了81.23%的用户
 内存消耗：
 13.3 MB, 在所有 Python3 提交中击败了85.86%的用户'''
+
+20210714
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        n = len(s)
+        if n<2:
+            return s
+        # maxlen初始化必须为1，因为下面更新dp的时候i无法==j，在输入的字符串为‘ac'时无法更新max_len=1，如果初始化为0，则无法返回‘a',而是返回空值
+        max_len, start = 1, 0
+        dp = [[False]*n for _ in range(n)]
+        for i in range(n):
+            dp[i][i] = True
+        for j in range(1,n):
+            for i in range(j):
+                if s[i]==s[j]:
+                    if j-i<3:
+                        dp[i][j] = True
+                    else:
+                        dp[i][j] = dp[i+1][j-1]
+                if dp[i][j] and j-i+1>max_len:
+                    max_len = j-i+1
+                    start = i
+        return s[start:start+max_len]
+        
