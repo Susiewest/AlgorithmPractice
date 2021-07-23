@@ -70,3 +70,23 @@ class Solution:
 52 ms, 在所有 Python3 提交中击败了10.29%的用户
 内存消耗：
 13.2 MB, 在所有 Python3 提交中击败了90.41%的用户'''
+
+20210723 迭代和递归写混一起了
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        if not head or not head.next:
+            return head
+        # dummy = ListNode(-1)
+        # dummy.next = head.next
+        # while head and head.next:
+        first, second = head, head.next
+        first.next = self.swapPairs(second.next)
+        second.next = first
+        return second
+执行用时：32 ms, 在所有 Python3 提交中击败了89.66%的用户
+内存消耗：15 MB, 在所有 Python3 提交中击败了19.39%的用户
