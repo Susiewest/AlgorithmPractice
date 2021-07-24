@@ -3,6 +3,7 @@
 #我在说什么。。。
 #学到的第二个小技巧就是在一通操作以后 head不再是head 那么如何返回整个链表 设置一个空头 return空头.next
 #以前考研学数据结构说过 为什么要设置空头 是为了让head的处理方法和后面的节点都一样保持一致 不需另外处理 现在有所领悟了
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
