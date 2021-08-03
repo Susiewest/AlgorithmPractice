@@ -23,3 +23,14 @@ class Solution:
 44 ms, 在所有 Python3 提交中击败了89.86%的用户
 内存消耗：
 14.8 MB, 在所有 Python3 提交中击败了6.35%的用户'''
+
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        dp = [0]*len(nums)
+        dp[0] = nums[0]
+        for i in range(1, len(nums)):
+            dp[i] = max(dp[i-1]+nums[i], nums[i])
+        return max(dp)
+    
+执行用时：40 ms, 在所有 Python3 提交中击败了78.12%的用户
+内存消耗：15.3 MB, 在所有 Python3 提交中击败了61.17%的用户
