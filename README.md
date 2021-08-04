@@ -340,6 +340,8 @@
 
 [821. Shortest Distance to a Character](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/821.%20Shortest%20Distance%20to%20a%20Character.py) 最近字符距离
 
+[930. Binary Subarrays With Sum](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/930.%20Binary%20Subarrays%20With%20Sum.py) 前缀和+哈希
+
 [991. Broken Calculator](https://github.com/Susiewest/AlgorithmPractice/blob/master/Math/991.%20Broken%20Calculator.py) 只能x2， -1操作的计算器
 
 [1143. Longest Common Subsequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Dynamic%20Programming/1143.%20Longest%20Common%20Subsequence.py)最长公共子序列 动态规划，类似编辑距离
