@@ -208,6 +208,8 @@
 
 [151. Reverse Words in a String](https://github.com/Susiewest/AlgorithmPractice/blob/master/Queue/151.%20Reverse%20Words%20in%20a%20String.py) 双端队列，Attention!!!!!!! if s[0] 和if s[0]!=' '不一样？？？！！！
 
+[154. Find Minimum in Rotated Sorted Array II](https://github.com/Susiewest/AlgorithmPractice/blob/master/Binary%20Search/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py)
+
 [155. Min Stack](https://github.com/Susiewest/AlgorithmPractice/blob/master/Stack/155.%20Min%20Stack.py)
 
 [160. Intersection of Two Linked Lists](https://github.com/Susiewest/AlgorithmPractice/blob/master/LinkList/160.%20Intersection%20of%20Two%20Linked%20Lists.py)
