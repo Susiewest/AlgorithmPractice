@@ -10,6 +10,8 @@
 
 [有向图中所有的环路径](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/有向图中所有的环路径.py) 
 
+[回忆跑步排名题(类似课程表)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Graph/互娱苏炳添相对排名(类课程表).py) 拓扑排序
+
 [1. Two Sum (C++ version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.cpp)
 
 [1. Two Sum (Python version)](https://github.com/Susiewest/AlgorithmPractice/blob/master/Array/1.%20Two%20Sum.py)
