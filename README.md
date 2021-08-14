@@ -182,6 +182,8 @@
 
 [127. Word Ladder](https://github.com/Susiewest/AlgorithmPractice/blob/master/Breadth-first%20Search/127.%20Word%20Ladder.py) 双向bfs写法没写 好难脑子好累以后再写吧QuQ
 
+[128. Longest Consecutive Sequence](https://github.com/Susiewest/AlgorithmPractice/blob/master/Hash/128.%20Longest%20Consecutive%20Sequence.py)
+
 [130. Surrounded Regions](https://github.com/Susiewest/AlgorithmPractice/blob/master/Depth-first%20Search/130.%20Surrounded%20Regions.py) 和200有点像的题
 
 [131. Palindrome Partitioning](https://github.com/Susiewest/AlgorithmPractice/blob/master/Backtracking/131.%20Palindrome%20Partitioning.py) 二刷时应实现回溯
