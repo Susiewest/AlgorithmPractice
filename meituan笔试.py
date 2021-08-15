@@ -149,3 +149,175 @@ while True:
 #         result += length-1
 # result -= length-index_chart[target_str[-1]]-1
 # print(result)
+
+====================================================================秋招==========================================================================
+
+
+# T = int(input())
+# for i in range(T):
+#     n = int(input())
+#     data = input().split(' ')
+#     data = [int(i) for i in data]
+#     # data.append(0)
+#     # flag = False
+#     # for j in range(len(data)):
+#     #     while data[j]!=j:
+#     #         if data[j] < 0 or data[j]>n:
+#     #             print('No')
+#     #             flag = True
+#     #             break
+#     #         if data[data[j]]==data[j]:
+#     #                 print('No')
+#     #                 flag = True
+#     #                 break
+#     #         else:
+#     #             data[data[j]], data[j] = data[j], data[data[j]]
+#     #     if flag:
+#     #             break
+#     # if not flag:
+#     #     print('Yes')
+#     hash_dict = dict()
+#     flag = False
+#     for i in range(len(data)):
+#         if data[i]<1 or data[i]>n:
+#             print('No')
+#             flag = True
+#             break
+#         if data[i] not in hash_dict.keys():
+#             hash_dict[data[i]] = 1
+#         else:
+#             print('No')
+#             flag = True
+#             break
+#     if not flag:
+#         print('Yes')
+
+
+# data = input()
+# # if data==data[::-1]:
+# #     print(0)
+# # else:
+# #     for i in range(1,len(data)+1):
+# #         new_data = data+data[:i]
+# #         if new_data==new_data[::-1]:
+# #             print(i)
+# if data==data[::-1]:
+#     print(0)
+# else:
+#     index = []
+#     for i in range(len(data)):
+#         if data[i]==data[-1]:
+#             index.append(i)
+#     for item in index:
+#         temp_data = data[item:]
+#         if temp_data==temp_data[::-1]:
+#             print(item)
+#             break
+
+# data = input()
+# if data==data[::-1]:
+#     print(0)
+# if data[-1] not in set(data[:-1]):
+#     print(len(data)-1)
+# else:
+#     index = []
+#     for i in range(len(data)):
+#         if data[i]==data[-1]:
+#             index.append(i)
+#     for item in index:
+#         temp_data = data[item:]
+#         if temp_data==temp_data[::-1]:
+#             print(item)
+#             break
+#
+# data = input()
+# flag = False
+# if data==data[::-1]:
+#     print(0)
+#     flag = True
+# if not flag and data[-1] not in set(data[:-1]):
+#     print(len(data)-1)
+#     flag = True
+# if not flag:
+#     index = []
+#     for i in range(len(data)):
+#         if data[i]==data[-1]:
+#             index.append(i)
+#     for item in index:
+#         temp_data = data[item:]
+#         if temp_data==temp_data[::-1]:
+#             print(item)
+#             break
+# T = int(input())
+# for i in range(T):
+#     n = int(input())
+#     data = input().strip()
+#     data = data.split(' ')
+#     data = [int(i) for i in data]
+#     # data.append(0)
+#     # flag = False
+#     # for j in range(len(data)):
+#     #     while data[j]!=j:
+#     #         if data[j] < 0 or data[j]>n:
+#     #             print('No')
+#     #             flag = True
+#     #             break
+#     #         if data[data[j]]==data[j]:
+#     #                 print('No')
+#     #                 flag = True
+#     #                 break
+#     #         else:
+#     #             data[data[j]], data[j] = data[j], data[data[j]]
+#     #     if flag:
+#     #             break
+#     # if not flag:
+#     #     print('Yes')
+#     hash_dict = dict()
+#     flag = False
+#     for i in range(len(data)):
+#         if data[i]<1 or data[i]>n:
+#             print('No')
+#             flag = True
+#             break
+#         if data[i] not in hash_dict.keys():
+#             hash_dict[data[i]] = 1
+#         else:
+#             print('No')
+#             flag = True
+#             break
+#     if not flag:
+#         print('Yes')
+import copy
+n = int(input())
+robots = []
+for i in range(n):
+    input_str = input().split(' ')
+    pos = int(input_str[0])
+    if input_str[1]=='L':
+        direction = -1
+    else:
+        direction = 1
+    robots.append([i,pos,direction])
+robots = sorted(robots, key=(lambda  x:x[1]))
+ans = [-1]*n
+stack0 = []
+stack1 = []
+for i in range(n):
+    if robots[i][1]%2==0:
+        if robots[i][2]==1:
+            stack0.append(copy.deepcopy(robots[i]))
+        else:
+            if len(stack0)>0:
+                ans[robots[i][0]]=int(abs(robots[i][1]-stack0[-1][1])/2)
+                ans[stack0[-1][0]] = ans[robots[i][0]]
+                stack0.pop()
+    else:
+        if robots[i][2]==1:
+            stack1.append(copy.deepcopy(robots[i]))
+        else:
+            if len(stack0)>0:
+                ans[robots[i][0]] = int(abs(robots[i][1]-stack0[-1][1])/2)
+                ans[stack0[-1][0]] = ans[robots[i][0]]
+                stack1.pop()
+for num in ans:
+    print(num)
