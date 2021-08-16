@@ -29,6 +29,7 @@ class Solution:
         nums = set(nums)
         max_length = 0
         for num in nums:
+            # 很关键的一点，如果num-1在set里，那num一定被遍历过计数过了，没必要重新遍历
             if num-1 not in nums:
                 current_length = 1
                 while num+1 in nums:
