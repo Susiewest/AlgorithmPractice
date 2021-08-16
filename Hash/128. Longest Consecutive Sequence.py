@@ -23,3 +23,19 @@ class Solution:
        
 执行用时：80 ms, 在所有 Python3 提交中击败了51.85%的用户
 内存消耗：38.2 MB, 在所有 Python3 提交中击败了5.01%的用户
+
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        nums = set(nums)
+        max_length = 0
+        for num in nums:
+            if num-1 not in nums:
+                current_length = 1
+                while num+1 in nums:
+                    num = num+1
+                    current_length += 1
+                max_length = max(max_length, current_length)
+        return max_length
+    
+执行用时：68 ms, 在所有 Python3 提交中击败了68.57%的用户
+内存消耗：25.9 MB, 在所有 Python3 提交中击败了71.86%的用户
