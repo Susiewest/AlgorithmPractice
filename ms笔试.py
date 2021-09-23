@@ -63,3 +63,129 @@ sol = Solution()
 ans = sol.bst(node1)
 print(ans)
 
+# 秋招笔试
+
+ # def solution(S):
+#     n = len(S)
+#     temp_sum, result = 0, 0
+#     result_set = set()
+#     for i in range(n):
+#         temp_sum += int(S[i])
+#
+#     for j in range(n):
+#         temp_sum -= int(S[j])
+#         for k in range(10):
+#             if (temp_sum+k)%3 == 0:
+#                 temp_num = S[:j]+str(k)+S[j+1:]
+#
+#                 result_set.add(int(temp_num))
+#                 # 本想直接计数， 但这样会导致0081，第一个位置取0和第二个取0重复计数，干脆用集合保存结果
+#                 # 返回结果set中元素的个数
+#                 # result += 1
+#         temp_sum += int(S[j])
+#     return len(result_set)
+
+
+# def solution(S):
+#     # write your code in Python 3.6
+#     upper = set()
+#     lower = set()
+#     for c in S:
+#         if ord(c) >= ord('A') and ord(c) <= ord('Z'):
+#             upper.add(ord(c))
+#         else:
+#             lower.add(ord(c)-32)
+#     intersect = upper & lower
+#     if len(intersect)==0:
+#         return 'NO'
+#     else:
+#         return chr(max(intersect))
+
+def solution(B):
+    if B is None or len(B)==0:
+        return False
+    row, col = len(B), len(B[0])
+    board =[[B[i][j] for j in range(col)] for i in range(row)]
+    stop_position = {'X', '<', '>', '^', 'v'}
+    def blocked_area(board, row, col):
+        # x，y用于在遍历中记录刺客的位置
+        x, y = 0 ,0
+        for i in range(row):
+            for j in range(col):
+                if board[i][j]=='<':
+                    for k in range(j-1, -1, -1):
+                        # 从右往左验证，如果是stop position，则停止
+                        if board[i][k] in stop_position:
+                            break
+                        # 如果是'.'，则替换为新定义的障碍'S',为了后续和'X'区分，守卫自己不换
+                        if board[i][k]=='.':
+                            board[i][k] = 'S'
+                        if board[i][k]=='A':
+                            x, y = i, k
+                            board[i][k] = 'S'
+                if board[i][j]=='>':
+                    for k in range(j+1,col):
+                        if board[i][k] in stop_position:
+                            break
+                        # 如果是'.'，则替换为障碍'S',守卫自己不换
+                        if board[i][k]=='.':
+                            board[i][k] = 'S'
+                        if board[i][k]=='A':
+                            x, y = i, k
+                            board[i][k] = 'S'
+                if board[i][j]=='^':
+                    for k in range(i-1, -1, -1):
+                        # 从下往上验证
+                        if board[k][j] in stop_position:
+                            break
+                        # 如果是'.'，则替换为障碍'X',守卫自己不换成'X'
+                        if board[k][j]=='.':
+                            board[k][j] = 'S'
+                        if board[k][j]=='A':
+                            x, y = k, j
+                            board[k][j] = 'S'
+                if board[i][j]=='v':
+                    for k in range(i+1, row):
+                        # 从上往下验证
+                        if board[k][j] in stop_position:
+                            break
+                        # 如果是'.'，则替换为障碍'X',守卫自己不换成'X'
+                        if board[k][j]=='.':
+                            board[k][j] = 'S'
+                        if board[k][j]=='A':
+                            x, y = k, j
+                            board[k][j] = 'S'
+                if board[i][j]=='A':
+                    x, y = i, j
+        return x, y
+
+    def isSafe(board, x, y):
+        return x>=0 and x<row and y>=0 and y<col and (board[x][y] not in (stop_position|{'S'})) and (visited[x][y]==False)
+
+    def getPath(board, x, y):
+        if x==row-1 and y==col-1:
+            return True
+        if isSafe(board, x, y):
+            visited[x][y] = True
+            if getPath(board, x+1, y):
+                return True
+            if getPath(board, x-1, y):
+                return True
+            if getPath(board, x, y+1):
+                return True
+            if getPath(board, x, y-1):
+                return True
+            visited[x][y] = False
+            return False
+        else:
+            return False
+
+    start_x, start_y = blocked_area(board, row, col)
+    visited = [[False]*col for _ in range(row)]
+    if board[row-1][col-1] in (stop_position|{'S'}):
+        return False
+    res = getPath(board, start_x, start_y)
+    return res
+# ["...Xv", "AX..^", ".XX.."]
+result = solution(['...', '>.A'])
+print(result)
